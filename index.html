@@ -1,0 +1,3369 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link type="image/x-icon" href="imgs/polo.png" rel="shortcut icon">
+    <link href="css/materialize.min.css" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/all.js"></script>
+    <title>Materialize</title>
+</head>
+<body>
+    <!-- 页面自定义定位 onload="window.location.href='#end';"-->
+    <div class="parallax-container valign-wrapper" style="height: 350px">
+        <div class="container">
+            <div class="row center">
+                <h5 class="header col s12 light white-text f28">A modern responsive front-end framework based on Material Design</h5>
+            </div>
+        </div>
+        <div class="parallax">
+            <img  class="responsive-img" src="imgs/parallax5.jpg">
+        </div>
+    </div>
+    <div id="index-banner" class="section no-pad-bot">
+        <div class="container">
+            <br/>
+            <h4 class="header center-on-small-only">Materialize</h4>
+            <div class="row center">
+                <br/>
+                <h5 class="header col l12 light left-align">A modern responsive front-end framework based on Material Design </h5>
+                <p class="col l12 left-align" style="text-indent:2em">
+                      由谷歌创建和设计的 Material Design（材料设计）是一种设计语言，结合成功的设计的经典原则以及创新科技。谷歌的目标是开发一个设计系统，让所有的产品在任何平台上拥有统一的用户体验。<br/></p>
+                <p class="col l12 left-align" style="text-indent:2em">Materialize  是一个基于材料设计的一个现代化的响应式前端框架。他们做了最繁重的工作，为您提供默认的样式，结合了您的自定义组件。此外，他们还改进动画和过渡，为开发人员提供流畅的体验。</p>
+                <p class="col l12 left-align" style="text-indent:2em">本网页，仅供个人总结使用，如有问题请联系作者，孙文：<span class="light-blue-text">869490494@qq.com </span> 浙江工商大学信电学院518室</p><br/><br/>
+            </div>
+            <h4 class="header center-on-small-only" style="margin-top: 100px">怎么使用 Materialize Design</h4>
+            <div class="row ">
+                <pre>
+                    <code>
+                        <span class="f16">
+    <Span class="grey-text">&lt;!DOCTYPE html&gt;</Span>
+    &lt;<Span class="red-text text-accent-2">html</Span>&gt;
+    &lt;<span class="materialize-red-text">head</span>&gt;
+    <Span class="grey-text">&lt;!--Import materialize.css--&gt; </Span>
+    &lt;<span class="materialize-red-text">link</span> <span class="green-text">type</span>="<span class="blue-text">text/css</span>" <span class="green-text">rel</span>="<span class="blue-text">stylesheet</span>" <span class="green-text">href</span>="<span class="blue-text">css/materialize.min.css</span>"  <span class="green-text">media</span>="<span class="blue-text">screen,projection</span>"/&gt;
+
+    <Span class="grey-text">&lt;!--Let browser know website is optimized for mobile--&gt;</Span>
+    &lt;<span class=" red-text">meta</span> <span class="green-text">name</span>="<span class="blue-text">viewport</span>" <span class="green-text">content</span>="<span class="blue-text">width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no</span>"/&gt;
+    &lt;/<span class=" red-text">head</span>&gt;
+
+    &lt;<span class=" red-text">body</span>&gt;
+    <Span class="grey-text">&lt;!--Import jQuery before materialize.js--&gt;</Span>
+    &lt;<span class=" red-text">script</span> <span class="green-text">type</span>="<span class="blue-text">text/javascript</span>" <span class="green-text">src</span>="<span class="blue-text">https://code.jquery.com/jquery-2.1.1.min.js</span>"&gt;&lt;<span class=" red-text">/script</span>&gt;
+    &lt;<span class=" red-text">script</span> <span class="green-text">type</span>="<span class="blue-text">text/javascript</span>" <span class="green-text">src</span>="<span class="blue-text">js/materialize.min.js</span>"&gt;&lt;<span class=" red-text">/script</span>&gt;
+    &lt;/<span class=" red-text">body</span>&gt;
+    &lt;/<span class=" red-text">html</span>&gt;
+                        </span>
+                    </code>
+                </pre>
+        </div>
+        </div>
+    </div>
+    <br/>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Color</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、背景颜色</h4>
+        <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class<br/> 这是一个基于材料设计基地的颜色调色板。
+            每一种颜色的定义与基本色类和一个可选的减轻或变黑类。
+            <br/>
+        </div>
+        <pre > <br/>
+    &lt;div class="card-panel teal lighten-2"&gt;这里面是内容！背景颜色是teal &lt;/div&gt;
+            </pre>
+
+        <h4>2、字体颜色</h4>
+        <div class="card-panel">
+            <span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
+        </div>
+        <pre> <br/>
+    &lt;div class="blue-text text-darken-2""&gt;这里面是内容，字体颜色是blue &lt;/div&gt;
+            </pre>
+
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Grid</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card-panel">
+            <span class="text-darken-2">每一行的默认格子是12格。用class 里col表示 s m l 表示三中适应格式。后面直接接数字表示所占宽度比例大小。</span>
+        </div>
+        <div class="row col l12">
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">1</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">2</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">3</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">4</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">5</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">6</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">7</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">8</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">9</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">10</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">11</div>
+            <div class="col s1 center red lighten-2 white-text f48" style="border-right:1px solid white;float: left">12</div>
+        </div>
+        <div class="row">
+            <div class="col s12 center red lighten-2 white-text f24 ">This div is 12-columns wide</div>
+            <br/>
+            <br/>
+            <div class="col s6 center red lighten-2 white-text f24 left" style="border-right:1px solid white">This div is 6-columns wide</div>
+            <div class="col s6 center red lighten-2 white-text f24 left">This div is 6-columns wide</div>
+        </div>
+        <br/>
+        <h4>1、offset</h4>
+        <div class="row">
+            <div class="col s12 center red lighten-2 white-text f24 ">This div is 12-columns wide</div>
+            <br/>
+            <br/>
+            <div class="col s6  offset-s6 center red lighten-2 white-text f24 left">6-columns (offset-by-6)</div>
+        </div>
+        <br/>
+        <h4>2、sections 和 diider</h4>
+        <div class="row">
+            <div class="col s5 green lighten-2">
+                <h5>section</h5>
+                <p>
+                    简单的上下内边距！
+                </p>
+            </div>
+            <div class="col s6 offset-s1 green lighten-2">
+                <h5>divider</h5>
+                <p>浅灰色的实线！</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 1</h5>
+            <p>Stuff</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 2</h5>
+            <p>Stuff</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 3</h5>
+            <p>Stuff</p>
+        </div>
+        <pre class=" language-markup">
+            <code class=" language-markup">
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>divider<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>section<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">&gt;</span></span>Section 1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Stuff<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>divider<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>section<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">&gt;</span></span>Section 2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Stuff<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>divider<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>section<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">&gt;</span></span>Section 3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Stuff<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+            </code>
+        </pre>
+        <h4>3、Screen Sizes</h4>
+        <table class="hoverable">
+            <thead>
+            <tr>
+                <th></th>
+                <th data-field="id">Mobile Devices <br>&lt;= 600px</th>
+                <th data-field="name">Tablet Devices <br>&lt;= 992px</th>
+                <th data-field="price">Desktop Devices <br>&gt;= 992px</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><strong>Class Prefix</strong></td>
+                <td><code class=" language-markup">.s</code></td>
+                <td><code class=" language-markup">.m</code></td>
+                <td><code class=" language-markup">.l</code></td>
+            </tr>
+            <tr>
+                <td><strong>Container Width</strong></td>
+                <td>85%</td>
+                <td>85%</td>
+                <td>70%</td>
+            </tr>
+            <tr>
+                <td><strong>Number of Columns</strong></td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+            </tr>
+            </tbody>
+        </table>
+        <br/>
+        <div class="row  ">
+            <div class="col s12 blue white-text"><p>s12</p></div>
+            <br/><br/><br/>
+            <div class="col s12 m3 l2 green white-text" style="border: 1px solid white"><p>s12 m3 l2</p></div>
+            <div class="col s12 m6 l8 green white-text" style="border: 1px solid white"><p>s12 m6 l8</p></div>
+            <div class="col s12 m3 l2 green white-text" style="border: 1px solid white"><p>s12 m3 l2</p></div>
+        </div>
+        <div class="row ">
+            <div class="col s12 m6 l3 orange  white-text" style="border: 1px solid white"><p>s12 m6 l3</p></div>
+            <div class="col s12 m6 l3 orange  white-text" style="border: 1px solid white"><p>s12 m6 l3</p></div>
+            <div class="col s12 m6 l3 orange  white-text" style="border: 1px solid white"><p>s12 m6 l3</p></div>
+            <div class="col s12 m6 l3 orange  white-text" style="border: 1px solid white"><p>s12 m6 l3</p></div>
+        </div>
+    </div>
+    <header>
+            <nav class="top-nav">
+                <div class="container">
+                    <div class="nav-wrapper"><a class="page-title">居中</a></div>
+                </div>
+            </nav>
+        </header>
+    <br/>
+    <div class="container">
+            <h4>1、Vertical Align</h4>
+            <div class="row">
+                <div class="col s12 m12 l12 valign-wrapper lightgrey " style=" height: 150px ;border: 1px solid lightsteelblue">
+                    <h5 class="valign">This should be vertically aligned</h5>
+                </div>
+                <div class="col s12">
+                    <br/>
+                    <pre class=" language-markup">
+                        <code>
+    &lt;div class="col s12 m12 l12 valign-wrapper lightgrey " style=" height: 150px ;border: 1px solid lightsteelblue"&gt;
+        &lt;h5 class="valign"&gt;This should be vertically aligned&lt;/h5&gt;
+    &lt;/div&gt;
+                        </code>
+                </pre>
+                </div>
+            </div>
+            <h4>2、Text Align</h4>
+            <p>These classes are for horizontally aligning content. We have <span class="orange-text"> .left-align</span>,<span class="orange-text"> .right-align</span> and <span class="orange-text">.center-align</span>
+            <div class=" orange lighten-2">
+                <h5 class="left-align">This should be left aligned</h5>
+            </div>
+            <div class=" orange lighten-2">
+                <h5 class="right-align">This should be right aligned</h5>
+            </div>
+            <div class=" orange lighten-2">
+                <h5 class="center-align">This should be center aligned</h5>
+            </div>
+            <pre class="language-markup">
+                <code>
+    &lt;div&gt;
+        &lt;h5 class="left-align"&gt;This should be left aligned&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;h5 class="right-align"&gt;This should be right aligned&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+        &lt;h5 class="center-align"&gt;This should be center aligned&lt;/h5&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+            <h4>3、Hiding Content</h4>
+            <table class="striped">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Screen Range</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><code class=" language-markup">.hide</code></td>
+                    <td>Hidden for all Devices</td>
+                </tr>
+                <tr>
+                    <td><code class=" language-markup">.hide-on-small-only</code></td>
+                    <td>Hidden for Mobile Only</td>
+                </tr>
+                <tr>
+                    <td><code class=" language-markup">.hide-on-med-only</code></td>
+                    <td>Hidden for Tablet Only</td>
+                </tr>
+                <tr>
+                    <td><code class=" language-markup">.hide-on-med-and-down</code></td>
+                    <td>Hidden for Tablet and Below</td>
+                </tr>
+                <tr>
+                    <td><code class=" language-markup">.hide-on-med-and-up</code></td>
+                    <td>Hidden for Tablet and Above</td>
+                </tr>
+                <tr>
+                    <td><code class=" language-markup">.hide-on-large-only</code></td>
+                    <td>Hidden for Desktop Only</td>
+                </tr>
+                </tbody>
+            </table>
+            <pre class="language-markup">
+                <code>
+    &lt;div class="hide-on-small-only"&gt;&lt;/div&gt;
+                </code>
+            </pre>
+            <h4>4、Formatting</h4>
+            <div class="row">
+                <div class=" col s4 offset-m4 card-panel">
+                    <h5 class="truncate">This is an extremely long title that will be truncated</h5>
+                </div>
+            </div>
+            <pre class="language-markup">
+                <code>
+    &lt;div class="card-panel"&gt;
+        &lt;h4 class="truncate"&gt;This is an extremely long title that will be truncated&lt;/h4&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+    </div>
+    <header>
+            <nav class="top-nav">
+                <div class="container">
+                    <div class="nav-wrapper"><a class="page-title">Media CSS</a></div>
+                </div>
+            </nav>
+    </header>
+    <div class="container">
+            <h4>1、Images</h4>
+                <h5>A :响应式图片,宽度100%，高度auto</h5>
+            <div >
+                <img  class="responsive-img" src="imgs/imgdemo.jpg">
+            </div>
+            <pre>
+                <code>
+    &lt;img  class="responsive-img" src="imgs/imgdemo.jpg"&gt;
+                </code>
+            </pre>
+            <h5>B :Circular images</h5>
+            <div class="row">
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                    <div class="card-panel grey lighten-5 z-depth-1">
+                        <div class="row valign-wrapper">
+                            <div class="col s2">
+                                <img src="imgs/yuna.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                            </div>
+                            <div class="col s10">
+                            <span class="black-text">
+                                This is a square image. Add the "circle" class to it to make it appear circular.
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <pre>
+                <code>
+    &lt;div class="row"&gt;
+        &lt;div class="col s12 m8 offset-m2 l6 offset-l3"&gt;
+            &lt;div class="card-panel grey lighten-5 z-depth-1"&gt;
+                &lt;div class="row valign-wrapper"&gt;
+                    &lt;div class="col s2"&gt;
+                        &lt;!-- notice the "circle" class --&gt;
+                       <span class="darken-2 red-text"> &lt;img src="imgs/polo.jpg" alt="" class="circle responsive-img"&gt;</span>
+                    &lt;/div&gt;
+                    &lt;div class="col s10"&gt;
+                        &lt;span class="black-text"&gt;
+                            This is a square image. Add the "circle" class to it to make it appear circular.
+                        &lt;/span&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+            <h5>C :Material Box for Imgs</h5>
+            <span>
+                材料盒的材料设计实现Lightbox插件。当用户点击图片,可以全屏放大。用户可以点击图片,滚动,或按ESC键退出。
+            </span>
+            <img class="materialboxed" width="650" src="imgs/demo-01.jpg">
+            <pre>
+                <code>
+    &lt;img class="materialboxed" width="650" src="images/sample-1.jpg"&gt;
+                </code>
+            </pre>
+            <h4>2、Videos</h4>
+            <h5>A :Responsive Embeds</h5>
+            <span>To make your embeds responsive, merely wrap them with a containing div which has the class video-container</span>
+            <div class="video-container">
+                <iframe width="853" height="480" src="http://www.w3school.com.cn/index.html" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <pre>
+                <code>
+    &lt;div <span class="red-text">class="video-container"</span>&gt;
+        &lt;iframe width="853" height="480" src="http://www.baidu.com/" frameborder="0" allowfullscreen &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+                </code>
+            </pre>
+            <br/>
+            <h5>B :Responsive Videos</h5>
+            <span>To make your HTML5 Videos responsive just add the class responsive-video to the video tag.</span>
+            <video width="100%" controls="">
+                <source type="video/mp4" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4">
+            </video>
+            <pre>
+                <code>
+
+    &lt;video <span class="red-text">class="responsive-video"</span> controls&gt;
+        &lt;source src="movie.mp4" type="video/mp4"&gt;
+    &lt;/video&gt;
+                </code>
+            </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Shadows</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <br/>
+        <span>想要阴影效果只要加上class="z-depth-2" </span>
+        <div class="row center-align valign-wrapper" >
+            <div class="col l1 z-depth-1 shadow-demo f36 white-text  offset-l1 valign">
+               1
+            </div>
+            <div class="col l1 z-depth-1 shadow-demo f36 white-text  offset-l1 valign">
+               2
+            </div>
+            <div class="col l1 z-depth-1 shadow-demo f36 white-text  offset-l1 valign">
+               3
+            </div>
+            <div class="col l1 z-depth-1 shadow-demo f36 white-text  offset-l1 valign">
+               4
+            </div>
+            <div class="col l1 z-depth-1 shadow-demo f36 white-text  offset-l1 valign">
+               5
+            </div>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="row"&gt;
+        &lt;div class="col s12 m4 l2 offset-l1"&gt;
+            &lt;p class="<span class="red-text">z-depth-1</span>  shadow-demo f36  "&gt;&lt;span class="white-text"&gt; 1&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="col s12 m4 l2"&gt;
+            &lt;p class="<span class="red-text">z-depth-2</span> shadow-demo f36  " &gt;&lt;span class="white-text"&gt;2&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="col s12 m4 l2"&gt;
+            &lt;p class="<span class="red-text">z-depth-3</span> shadow-demo f36  "&gt;&lt;span class="white-text"&gt;3&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="col s12 m4 l2"&gt;
+            &lt;p class="<span class="red-text">z-depth-4</span> shadow-demo f36  "&gt;&lt;span class="white-text"&gt;4&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="col s12 m4 l2"&gt;
+            &lt;p class="<span class="red-text">z-depth-5</span> shadow-demo f36  "&gt;&lt;span class="white-text"&gt;5&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Tables:表格</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、Borderless Table 没有边框的表格</h4>
+        <span class="teal-text"><b>默认就没有边框!</b></span>
+        <table>
+            <thead>
+            <tr>
+                <th data-field="id">Name</th>
+                <th data-field="name">Item Name</th>
+                <th data-field="price">Item Price</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Alvin</td>
+                <td>Eclair</td>
+                <td>$0.87</td>
+            </tr>
+            <tr>
+                <td>Alan</td>
+                <td>Jellybean</td>
+                <td>$3.76</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>Lollipop</td>
+                <td>$7.00</td>
+            </tr>
+            <tr>
+                <td>Shannon</td>
+                <td>KitKat</td>
+                <td>$9.99</td>
+            </tr>
+            </tbody>
+        </table>
+        <h4>2、Bordered Table:有边框表格  不包含外边框</h4>
+        <span>class里面加个bordered 就可以了</span>
+        <table class="bordered">
+            <thead>
+            <tr>
+                <th data-field="id">Name</th>
+                <th data-field="name">Item Name</th>
+                <th data-field="price">Item Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Alvin</td>
+                <td>Eclair</td>
+                <td>$0.87</td>
+            </tr>
+            <tr>
+                <td>Alan</td>
+                <td>Jellybean</td>
+                <td>$3.76</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>Lollipop</td>
+                <td>$7.00</td>
+            </tr>
+            <tr>
+                <td>Shannon</td>
+                <td>KitKat</td>
+                <td>$9.99</td>
+            </tr>
+            </tbody>
+        </table>
+        <h4>3、Striped Table  奇偶行的背景颜色不一样</h4>
+        <span>class里面加个striped 就可以了</span>
+        <table class="striped">
+            <thead>
+            <tr>
+                <th data-field="id">Name</th>
+                <th data-field="name">Item Name</th>
+                <th data-field="price">Item Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Alvin</td>
+                <td>Eclair</td>
+                <td>$0.87</td>
+            </tr>
+            <tr>
+                <td>Alan</td>
+                <td>Jellybean</td>
+                <td>$3.76</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>Lollipop</td>
+                <td>$7.00</td>
+            </tr>
+            <tr>
+                <td>Shannon</td>
+                <td>KitKat</td>
+                <td>$9.99</td>
+            </tr>
+            </tbody>
+        </table>
+        <h4>4、Hoverable Table 鼠标移上去才会改变背景颜色。</h4>
+        <span>class里面加个hoverable 就可以了</span>
+        <table class="hoverable">
+            <thead>
+            <tr>
+                <th data-field="id">Name</th>
+                <th data-field="name">Item Name</th>
+                <th data-field="price">Item Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Alvin</td>
+                <td>Eclair</td>
+                <td>$0.87</td>
+            </tr>
+            <tr>
+                <td>Alan</td>
+                <td>Jellybean</td>
+                <td>$3.76</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>Lollipop</td>
+                <td>$7.00</td>
+            </tr>
+            <tr>
+                <td>Shannon</td>
+                <td>KitKat</td>
+                <td>$9.99</td>
+            </tr>
+            </tbody>
+        </table>
+        <h4>5、Centered Table 表格数据居中。</h4>
+        <span>class里面加个centered就可以了</span>
+        <table class="centered">
+            <thead>
+            <tr>
+                <th data-field="id">Name</th>
+                <th data-field="name">Item Name</th>
+                <th data-field="price">Item Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Alvin</td>
+                <td>Eclair</td>
+                <td>$0.87</td>
+            </tr>
+            <tr>
+                <td>Alan</td>
+                <td>Jellybean</td>
+                <td>$3.76</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>Lollipop</td>
+                <td>$7.00</td>
+            </tr>
+            <tr>
+                <td>Shannon</td>
+                <td>KitKat</td>
+                <td>$9.99</td>
+            </tr>
+            </tbody>
+        </table>
+        <h4>6、Responsive Table 响应式表格。缩小窗查看效果 X Y 调换</h4>
+        <span>class里面加个responsive-table就可以了</span>
+        <table class="responsive-table">
+            <thead>
+            <tr>
+                <th data-field="id">Name</th>
+                <th data-field="name">Item Name</th>
+                <th data-field="price">Item Price</th>
+            </tr>
+            </thead>
+            <tbody><tr>
+                <td>Alvin</td>
+                <td>Eclair</td>
+                <td>$0.87</td>
+            </tr>
+            <tr>
+                <td>Alan</td>
+                <td>Jellybean</td>
+                <td>$3.76</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>Lollipop</td>
+                <td>$7.00</td>
+            </tr>
+            <tr>
+                <td>Shannon</td>
+                <td>KitKat</td>
+                <td>$9.99</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Badges 标记 例如new标记</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、Collections</h4>
+        <ul class="collection">
+            <a class="collection-item" href="#">提莫<span class="badge">1</span></a>
+            <a class="collection-item" href="#">爱希<span class="new badge">4</span></a>
+            <a class="collection-item" href="#">菲兹<span class="badge">6</span></a>
+            <a class="collection-item" href="#">沙皇<span class="badge">14</span></a>
+        </ul>
+        <br/>
+        <pre>
+            <code>
+    &lt;ul <span class="red-text"> class="collection" </span>&gt;
+        &lt;a  <span class="red-text">class="collection-item"</span> href="#"&gt;提莫&lt;span class="badge"&gt;1&lt;/span&gt;&lt;/a&gt;
+        &lt;a  <span class="red-text">class="collection-item"</span> href="#"&gt;爱希&lt;span class="new badge"&gt;4&lt;/span&gt;&lt;/a&gt;
+        &lt;a  <span class="red-text">class="collection-item"</span> href="#"&gt;菲兹&lt;span class="badge"&gt;6&lt;/span&gt;&lt;/a&gt;
+        &lt;a  <span class="red-text">class="collection-item"</span> href="#"&gt;沙皇&lt;span class="badge"&gt;14&lt;/span&gt;&lt;/a&gt;
+    &lt;/ul&gt;
+            </code>
+        </pre>
+        <h4>2、下拉框标记</h4>
+        <a data-activates="dropdown2" href="#" class="btn dropdown-button">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a>
+        <ul class="dropdown-content" id="dropdown2" style="width: 182px; position: absolute; top: 0px; left: 0px; opacity: 1; display: none;">
+            <li><a href="#">one<span class="badge">1</span></a></li>
+            <li><a href="#">two<span class="new badge">1</span></a></li>
+            <li><a href="#">three</a></li>
+        </ul>
+
+        <pre>
+            <code>
+    &lt;a data-activates="dropdown2" href="#" class="btn dropdown-button"&gt;Dropdown&lt;i class="mdi-navigation-arrow-drop-down right"&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;ul class="dropdown-content" id="dropdown2" style="width: 182px; position: absolute; top: 0px; left: 0px; opacity: 1; display: none;"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;one&lt;span class="badge"&gt;1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;two&lt;span class="new badge"&gt;1&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;three&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    JS 部分！
+    $('.dropdown-button').dropdown({
+        inDuration: 300,
+        outDuration: 225,
+        constrain_width: false, // Does not change width of dropdown to that of the activator
+        hover: true, // Activate on hover
+        gutter: 0, // Spacing from edge
+        belowOrigin: false // Displays dropdown below the button
+    });
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">button  按钮</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、raised 突起按钮</h4>
+        <a class="waves-effect waves-light btn">button</a>
+        <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+        <a class="waves-effect waves-light btn">button<i class="material-icons right">cloud</i></a>
+        <pre>
+            <code>
+    &lt;a class="waves-effect waves-light btn"&gt;button&lt;/a&gt;
+    &lt;a class="waves-effect waves-light btn"&gt;&lt;i class="material-icons right"&gt;cloud&lt;/i&gt;button&lt;/a&gt;
+    &lt;a class="waves-effect waves-light btn"&gt;button&lt;i class="material-icons right"&gt;cloud&lt;/i&gt;&lt;/a&gt;
+            </code>
+        </pre>
+        <h4>2、Floating</h4>
+        <span>btn-floating是圆的</span><br/>
+        <span>waves-effect 点击有波纹效果</span><br/>
+        <span>waves-light 白色波纹，默认是黑色的</span>
+        <div class="row">
+            <a class="  btn-floating btn-large waves-effect waves-green red"><i class="material-icons">add</i></a>
+            <a class="  btn-floating btn-large waves-effect waves-light green"><i class="material-icons">add</i></a>
+            <a class="  btn-floating btn-large waves-effect waves-red yellow"><i class="material-icons">add</i></a>
+            <a class="  btn-floating btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            <a class="  btn-floating btn-large waves-effect waves-light pink"><i class="material-icons">add</i></a>
+        </div>
+        <br/>
+        <div class="row">
+            <a class="  btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+            <a class="  btn-large waves-effect waves-light green"><i class="material-icons">add</i></a>
+            <a class="  btn-large waves-effect waves-light yellow"><i class="material-icons">add</i></a>
+            <a class="  btn-large waves-effect waves-light blue"><i class="material-icons">add</i></a>
+            <a class="  btn-large waves-effect waves-light pink"><i class="material-icons">add</i></a>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="row"&gt;
+        &lt;a class="btn-floating btn-large waves-effect waves-green red"&gt;&lt;i class="material-icons"&gt;add&lt;/i&gt;&lt;/a&gt;
+        &lt;a class="btn-floating btn-large waves-effect waves-light green"&gt;&lt;i class="material-icons"&gt;add&lt;/i&gt;&lt;/a&gt;
+        &lt;a class="btn-floating btn-large waves-effect waves-red yellow"&gt;&lt;i class="material-icons"&gt;add&lt;/i&gt;&lt;/a&gt;
+        &lt;a class="btn-floating btn-large waves-effect waves-light blue"&gt;&lt;i class="material-icons"&gt;add&lt;/i&gt;&lt;/a&gt;
+        &lt;a class="btn-floating btn-large waves-effect waves-light pink"&gt;&lt;i class="material-icons"&gt;add&lt;/i&gt;&lt;/a&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>3、固定位置的按钮。页面右下角。</h4>
+        <div class="fixed-action-btn" style="bottom: 50px; right: 20px;">
+            <a class="btn-floating btn-large orange">
+                <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                <li><a class="btn-floating green" href="javascript:scroll(0,0)"><i class="material-icons">publish</i></a></li>
+
+            </ul>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="fixed-action-btn" style="bottom: 30px; right: 20px;"&gt;
+        &lt;a class="btn-floating btn-large red"&gt;
+            &lt;i class="large material-icons"&gt;mode_edit&lt;/i&gt;
+        &lt;/a&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a class="btn-floating red"&gt;&lt;i class="material-icons"&gt;insert_chart&lt;/i&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="btn-floating yellow darken-1"&gt;&lt;i class="material-icons"&gt;format_quote&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="btn-floating green"&gt;&lt;i class="material-icons"&gt;publish&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a class="btn-floating blue"&gt;&lt;i class="material-icons"&gt;attach_file&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>4、扁平按钮。</h4>
+        <a class="waves-effect waves-teal btn-flat light-grey"> 我是按钮，点我啊！ </a>
+        <pre>
+            <code>
+    &lt;a class="waves-effect waves-teal <span class="red-text">btn-flat</span> "&gt;Button&lt;/a&gt;
+            </code>
+        </pre>
+        <h4>5、提交按钮</h4>
+        <span>When you use a button to submit a form, instead of using a input tag, use a button tag with a type submit</span>
+        <br/>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons" style="vertical-align: middle">send</i>
+        </button>
+        <pre>
+            <code>
+    &lt;button class="btn waves-effect waves-light" type="submit" name="action"&gt;Submit
+        &lt;i class="material-icons"&gt;send&lt;/i&gt;
+    &lt;/button&gt;
+            </code>
+        </pre>
+        <h4>6、Large 大号按钮！</h4>
+        <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit
+            <i class="material-icons" style="vertical-align: middle">send</i>
+        </button>
+        <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit
+            <i class="material-icons" style="vertical-align: middle">send</i>
+        </button>
+        <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit
+            <i class="material-icons" style="vertical-align: middle">send</i>
+        </button>
+        <pre>
+            <code>
+    &lt;button class="btn waves-effect waves-light <span class="red-text">btn-large</span> " type="submit" name="action"&gt;Submit
+        &lt;i class="material-icons"&gt;send&lt;/i&gt;
+    &lt;/button&gt;
+            </code>
+        </pre>
+        <h4>7、禁用按钮</h4>
+        <span class="red-text">禁用按钮时，只要加个class disabled 就行了。</span><br/>
+        <a class="btn-large disabled">Button</a>
+        <a class="btn disabled">Button</a>
+        <a class="btn-flat disabled">Button</a>
+        <a class="btn-floating disabled"><i class="material-icons">add</i></a>
+        <pre>
+            <code>
+    &lt;a class="btn-large <span class="red-text">disabled</span> "&gt;Button&lt;/a&gt;
+    &lt;a class="btn <span class="red-text">disabled</span>"&gt;Button&lt;/a&gt;
+    &lt;a class="btn-flat <span class="red-text">disabled</span>"&gt;Button&lt;/a&gt;
+    &lt;a class="btn-floating <span class="red-text">disabled</span>"&gt;&lt;i class="material-icons"&gt;add&lt;/i&gt;&lt;/a&gt;
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Cards 卡片</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、Basic Card 基本的卡片</h4>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card skyblue-grey darken-1">
+                    <div class="card-content black-text">
+                        <span class="card-title black-text">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="row"&gt;
+        &lt;div class="col s12 m6"&gt;
+            &lt;div class="card blue-grey darken-1"&gt;
+                &lt;div class="card-content white-text"&gt;
+                    &lt;span class="card-title"&gt;Card Title&lt;/span&gt;
+                    &lt;p&gt;I am a very simple card. I am good at containing small bits of information.
+                       I am convenient because I require little markup to use effectively.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="card-action"&gt;
+                    &lt;a href="#"&gt;This is a link&lt;/a&gt;
+                    &lt;a href="#"&gt;This is a link&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>2、Image Card图片卡片</h4>
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imgs/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col m5">
+                <span class="blue-grey-text f24">
+                    图片按比例缩小了<br/>
+                    图片按比例缩小了<br/>
+                    图片按比例缩小了<br/>
+                    图片按比例缩小了<br/>
+                    图片按比例缩小了<br/>
+                    图片按比例缩小了<br/>
+                    图片按比例缩小了<br/>
+                </span>
+            </div>
+        </div>
+        <pre class="language-markup">
+            <code class="language-markup">
+    &lt;div class="row"&gt;
+        &lt;div class="col s12 m7"&gt;
+            &lt;div class="card"&gt;
+                &lt;div class="card-image"&gt;
+                    &lt;img src="images/sample-1.jpg"&gt;
+                    &lt;span class="card-title"&gt;Card Title&lt;/span&gt;
+                &lt;/div&gt;
+                &lt;div class="card-content"&gt;
+                    &lt;p&gt;
+                            I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.
+                    &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class="card-action"&gt;
+                    &lt;a href="#"&gt;This is a link&lt;/a&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>3、Card Reveal 点开显示内容。</h4>
+        <div class="row">
+            <div class="col s 12 m7">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="imgs/office.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                        <p><a href="#">This is a link</a></p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col  s12 m5">
+                <p class="f24 red-text">
+                    在这里你可以添加一个卡片,点击图片，揭示更多的信息。<br/>
+                    activater<br/>
+                    card-content<br/>
+                    card-reveal<br/>
+                </p>
+            </div>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="col s 12 m7"&gt;
+        &lt;div class="card"&gt;
+            &lt;div class="card-image waves-effect waves-block waves-light"&gt;
+                &lt;img <span class="red-text">class="activator"</span> src="imgs/office.jpg"&gt;
+            &lt;/div&gt;
+            &lt;div <span class="red-text">class="card-content"</span>&gt;
+                &lt;span class="card-title activator grey-text text-darken-4"&gt;Card Title&lt;i class="material-icons right"&gt;more_vert&lt;/i&gt;&lt;/span&gt;
+                &lt;p&gt;&lt;a href="#"&gt;This is a link&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div <span class="red-text">class="card-reveal"</span>&gt;
+                &lt;span class="card-title grey-text text-darken-4"&gt;Card Title&lt;i class="material-icons right"&gt;close&lt;/i&gt;&lt;/span&gt;
+                &lt;p&gt;Here is some more information about this product that is only revealed once clicked on.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>4、卡片大小</h4>
+        <h5>A :Small</h5>
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="card small">
+                    <div class="card-image">
+                        <img src="imgs/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+                <br><br>
+                <p class="caption f24">
+                    The Small Card limits the height of the card to 300px.
+                </p>
+            </div>
+        </div>
+        <h5>B :Medium</h5>
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card medium">
+                    <div class="card-image">
+                        <img src="imgs/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m5">
+                <br><br>
+                <p class="caption f24">
+                    The medium Card limits the height of the card to 400px.
+                </p>
+            </div>
+        </div>
+        <h5>C :large</h5>
+        <div class="row">
+            <div class="col s12 m8">
+                <div class="card large">
+                    <div class="card-image">
+                        <img src="imgs/sample-1.jpg">
+                        <span class="card-title">Card Title</span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">This is a link</a>
+                        <a href="#">This is a link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <br><br>
+                <p class="caption f24">
+                    The large Card limits the height of the card to 500px.
+                </p>
+            </div>
+        </div>
+        <h4>5、简单的卡片。</h4>
+        <div class="row">
+            <div class="col s12 m5">
+                <div class="card-panel teal">
+                    <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="col s12 m6">
+                <p class="caption">
+                    For a simpler card with less markup, try using a card panel which just has padding and a shadow effect
+                </p>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Collections</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、基本的collections</h4>
+        <ul class="collection">
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+        </ul>
+        <pre>
+            <code>
+    &lt;ul <span class="red-text">class="collection"</span>&gt;
+        &lt;li <span class="red-text">class="collection-item"</span>&gt;Alvin&lt;/li&gt;
+        &lt;li <span class="red-text">class="collection-item"</span>&gt;Alvin&lt;/li&gt;
+        &lt;li <span class="red-text">class="collection-item"</span>&gt;Alvin&lt;/li&gt;
+        &lt;li <span class="red-text">class="collection-item"</span>&gt;Alvin&lt;/li&gt;
+    &lt;/ul&gt;
+            </code>
+        </pre>
+        <h4>2、link 超链接collections </h4>
+        <br>
+        <span class="red-text f24">用的是div a 而不是ul li </span>
+        <div class="collection">
+            <a href="#" class="collection-item">Alvin</a>
+            <a href="#" class="collection-item active">Alvin</a>
+            <a href="#" class="collection-item">Alvin</a>
+            <a href="#" class="collection-item">Alvin</a>
+        </div>
+        <pre>
+            <code>
+    &lt;div <span class="red-text">class="collection"</span>&gt;
+        &lt;a href="#" <span class="red-text">class="collection-item"</span>&gt;Alvin&lt;/a&gt;
+        &lt;a href="#" <span class="red-text">class="collection-item active"</span>&gt;Alvin&lt;/a&gt;
+        &lt;a href="#" <span class="red-text">class="collection-item"</span>&gt;Alvin&lt;/a&gt;
+        &lt;a href="#" <span class="red-text">class="collection-item"</span>&gt;Alvin&lt;/a&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>3、带标题的collection</h4>
+        <ul class="collection with-header">
+            <li class="collection-header"><h4>First Names</h4></li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+            <li class="collection-item">Alvin</li>
+        </ul>
+        <pre>
+            <code>
+    &lt;ul class="collection with-header"&gt;
+        &lt;li class="collection-header"&gt;&lt;h4&gt;First Names&lt;/h4&gt;&lt;/li&gt;
+        &lt;li class="collection-item"&gt;Alvin&lt;/li&gt;
+        &lt;li class="collection-item"&gt;Alvin&lt;/li&gt;
+        &lt;li class="collection-item"&gt;Alvin&lt;/li&gt;
+        &lt;li class="collection-item"&gt;Alvin&lt;/li&gt;
+    &lt;/ul&gt;
+            </code>
+        </pre>
+        <h4>4、Secondary content 里面还有其他内容</h4>
+        <ul class="collection with-header">
+            <li class="collection-header"><h4>First Names</h4></li>
+            <li class="collection-item"><div>Alvin<a href="#" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+            <li class="collection-item"><div>Alvin<a href="#" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+            <li class="collection-item"><div>Alvin<a href="#" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+            <li class="collection-item"><div>Alvin<a href="#" class="secondary-content"><i class="material-icons">send</i></a></div></li>
+        </ul>
+        <pre>
+            <code>
+    &lt;ul class="collection with-header"&gt;
+        &lt;li <span class="red-text">class="collection-header"</span>&gt;&lt;h4&gt;First Names&lt;/h4&gt;&lt;/li&gt;
+        &lt;li <span class="red-text">class="collection-item"</span>&gt;&lt;div&gt;Alvin&lt;a href="#" class="secondary-content"&gt;&lt;i class="material-icons"&gt;send&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+        &lt;li <span class="red-text">class="collection-item"</span>&gt;&lt;div&gt;Alvin&lt;a href="#" class="secondary-content"&gt;&lt;i class="material-icons"&gt;send&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+        &lt;li <span class="red-text">class="collection-item"</span>&gt;&lt;div&gt;Alvin&lt;a href="#" class="secondary-content"&gt;&lt;i class="material-icons"&gt;send&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+        &lt;li <span class="red-text">class="collection-item"</span>&gt;&lt;div&gt;Alvin&lt;a href="#" class="secondary-content"&gt;&lt;i class="material-icons"&gt;send&lt;/i&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+            </code>
+        </pre>
+        <h4>5、Avatar content 神奇内容</h4>
+        <ul class="collection">
+            <li class="collection-item avatar">
+                <img src="imgs/yuna.jpg" alt="" class="circle">
+                <span class="title">Title</span>
+                <p>First Line <br>
+                    Second Line
+                </p>
+                <a href="#" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle">folder</i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                    Second Line
+                </p>
+                <a href="#" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle green">insert_chart</i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                    Second Line
+                </p>
+                <a href="#" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+            <li class="collection-item avatar">
+                <i class="material-icons circle red">play_arrow</i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                    Second Line
+                </p>
+                <a href="#" class="secondary-content"><i class="material-icons">grade</i></a>
+            </li>
+        </ul>
+        <pre>
+            <code>
+    &lt;ul class="collection"&gt;
+        &lt;li class="collection-item <span class="red-text">avatar</span> "&gt;
+            &lt;img src="images/yuna.jpg" alt="" class="circle"&gt;
+            &lt;span class="title"&gt;Title&lt;/span&gt;
+            &lt;p&gt;First Line &lt;br&gt;
+            Second Line
+            &lt;/p&gt;
+            &lt;a href="#" class="secondary-content"&gt;&lt;i class="material-icons"&gt;grade&lt;/i&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="collection-item <span class="red-text">avatar</span> "&gt;
+            &lt;i class="material-icons circle"&gt;folder&lt;/i&gt;
+            &lt;span class="title"&gt;Title&lt;/span&gt;
+            &lt;p&gt;First Line &lt;br&gt;
+            Second Line
+            &lt;/p&gt;
+            &lt;a href="#" class="secondary-content"&gt;&lt;i class="material-icons"&gt;grade&lt;/i&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="collection-item <span class="red-text">avatar</span> "&gt;
+            &lt;i class="material-icons circle green"&gt;insert_chart&lt;/i&gt;
+            &lt;span class="title"&gt;Title&lt;/span&gt;
+            &lt;p&gt;First Line &lt;br&gt;
+            Second Line
+            &lt;/p&gt;
+            &lt;a href="#" class="secondary-content"&gt;&lt;i class="material-icons"&gt;grade&lt;/i&gt;&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="collection-item <span class="red-text">avatar</span> "&gt;
+            &lt;i class="material-icons circle red"&gt;play_arrow&lt;/i&gt;
+            &lt;span class="title"&gt;Title&lt;/span&gt;
+            &lt;p&gt;First Line &lt;br&gt;
+            Second Line
+            &lt;/p&gt;
+            &lt;a href="#" class="secondary-content"&gt;&lt;i class="material-icons"&gt;grade&lt;/i&gt;&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Footer 页脚</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <footer class="page-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="white-text">Footer Content</h5>
+                            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Links</h5>
+                            <ul>
+                                <li><a class="grey-text text-lighten-3" href="#">Link 1</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#">Link 2</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#">Link 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="container">
+                        © 2014 Copyright Text
+                        <a class="grey-text text-lighten-4 right" href="#">More Links</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Forms 表单</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、Input fields 输入域</h4>
+        <p class="f24">
+            Text fields allow user input. The border should light up simply and clearly indicating which field the user is currently editing. You must have a .input-field div wrapping your input and label. This helps our jQuery animate the label. This is only used in our Input and Textarea form elements.
+            <br>
+            If you don't want the Green and Red validation states, just <span class="red-text">remove the validate class 表单验证</span> from your inputs.
+        </p>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                        <label for="disabled">Disabled</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email1" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="row"&gt;
+        &lt;form class="col s12"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="input-field col s6"&gt;
+                    &lt;input placeholder="Placeholder" id="first_name" type="text" class="validate"&gt;
+                    &lt;label for="first_name"&gt;First Name&lt;/label&gt;
+                &lt;/div&gt;
+                &lt;div class="input-field col s6"&gt;
+                    &lt;input id="last_name" type="text" class="validate"&gt;
+                    &lt;label for="last_name"&gt;Last Name&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="input-field col s12"&gt;
+                    &lt;input disabled value="I am not editable" id="disabled" type="text" class="validate"&gt;
+                    &lt;label for="disabled"&gt;Disabled&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="input-field col s12"&gt;
+                    &lt;input id="password" type="password" class="validate"&gt;
+                    &lt;label for="password"&gt;Password&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="input-field col s12"&gt;
+                    &lt;input id="email" type="email" class="validate"&gt;
+                    &lt;label for="email"&gt;Email&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>2、预填充表单</h4>
+        <span>如果 想要预填充表单。只要加class="active"就ok</span>
+        <div class="row">
+            <div class="input-field col s8">
+                <input value="我是预填充的内容。看我啊 看我啊。" id="first_name2" type="text" class="validate">
+                <label class="active" for="first_name2">First Name</label>
+            </div>
+        </div>
+        <pre>
+            <code>
+        &lt;div class="row"&gt;
+            &lt;div class="input-field col s8"&gt;
+                &lt;input value="我是预填充的内容。看我啊 看我啊。" id="first_name2" type="text" <span class="red-text">class="validate"</span>&gt;
+                &lt;label class="active" for="first_name2"&gt;First Name&lt;/label&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>3、Icon Prefixes  图标前缀表单。</h4>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix" style="vertical-align: middle">account_circle</i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix" style="vertical-align: middle">phone</i>
+                        <input id="icon_telephone" type="tel" class="validate">
+                        <label for="icon_telephone">Telephone</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <pre>
+            <code>
+        &lt;div class="row"&gt;
+            &lt;form class="col s12"&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="input-field col s6"&gt;
+                        &lt;i class="material-icons <span class="red-text">prefix</span> "&gt;account_circle&lt;/i&gt;
+                        &lt;input id="icon_prefix" type="text" class="validate"&gt;
+                        &lt;label for="icon_prefix"&gt;First Name&lt;/label&gt;
+                    &lt;/div&gt;
+                    &lt;div class="input-field col s6"&gt;
+                        &lt;i class="material-icons <span class="red-text">prefix</span> "&gt;phone&lt;/i&gt;
+                        &lt;input id="icon_telephone" type="tel" class="validate"&gt;
+                        &lt;label for="icon_telephone"&gt;Telephone&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>4、Custom Error or Success Messages客户端验证，返回正确或者错误信息。</h4>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input type="email" class="validate valid" id="email">
+                        <label data-success="right" data-error="wrong" for="email" class="active">Email</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <pre>
+            <code>
+        &lt;div class="row"&gt;
+            &lt;form class="col s12"&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="input-field col s12"&gt;
+                        &lt;input id="email" type="email" class="validate"&gt;
+                        &lt;label for="email" data-error="wrong" data-success="right"&gt;Email&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>5、Textarea 文字域</h4>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea21" placeholder="Textareas will auto resize to the text inside." class="materialize-textarea"></textarea>
+                        <label for="textarea1">Textarea</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <Pre>
+            <code>
+        &lt;div class="row"&gt;
+            &lt;form class="col s12"&gt;
+                &lt;div class="row"&gt;
+                    &lt;div class="input-field col s12"&gt;
+                        &lt;textarea id="textarea1" class="materialize-textarea"&gt;&lt;/textarea&gt;
+                        &lt;label for="textarea1"&gt;Textarea&lt;/label&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+            </code>
+        </Pre>
+        <h4>6、Select下拉选择框</h4>
+        <div class="row">
+            <div class="input-field col s6 m6 l6">
+                <form>
+                    <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </form>
+            </div>
+            <div class="input-field col s6 m6 l6">
+                <form>
+                    <select class=" browser-default">
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <h4>7、不能用的下拉框 暂且</h4>
+        <div class="row">
+            <label>Materialize Disabled</label>
+            <select disabled>
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+            <label>Browser Disabled</label>
+            <select class="browser-default" disabled>
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+        <h4>8、radio单选按钮</h4>
+        <span> You can choose only one!</span>
+        <br>
+        <span> class with-gap 选中后悔有个圆环效果。</span>
+        <div class="row">
+            <form action="#">
+                <p>
+                    <input name="group1" type="radio" id="test1" />
+                    <label for="test1">Red</label>
+                </p>
+                <p>
+                    <input name="group1" type="radio" id="test2" />
+                    <label for="test2">Yellow</label>
+                </p>
+                <p>
+                    <input class="with-gap" name="group1" type="radio" id="test3"  />
+                    <label for="test3">Green</label>
+                </p>
+                <p>
+                    <input name="group1" type="radio" id="test4" disabled="disabled" />
+                    <label for="test4">Brown</label>
+                </p>
+            </form>
+            <pre>
+                <code>
+    &lt;form action="#"&gt;
+        &lt;p&gt;
+            &lt;input name="group1" type="radio" id="test1" /&gt;
+            &lt;label for="test1"&gt;Red&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;input name="group1" type="radio" id="test2" /&gt;
+            &lt;label for="test2"&gt;Yellow&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;input class="with-gap" name="group1" type="radio" id="test3"  /&gt;
+            &lt;label for="test3"&gt;Green&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;input name="group1" type="radio" id="test4" disabled="disabled" /&gt;
+            &lt;label for="test4"&gt;Brown&lt;/label&gt;
+        &lt;/p&gt;
+    &lt;/form&gt;
+                </code>
+            </pre>
+        </div>
+        <h4>9、Checkboxes复选框及其样式。</h4>
+        <div class="row">
+            <form action="#">
+                <p>
+                    <input type="checkbox" id="test55" />
+                    <label for="test55">Red</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="test6" checked="checked" />
+                    <label for="test6">Yellow</label>
+                </p>
+                <p>
+                    <input type="checkbox" class="filled-in" id="filled-in-box" checked="checked" />
+                    <label for="filled-in-box">Filled in</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="test7" checked="checked" disabled="disabled" />
+                    <label for="test7">Green</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="test8" disabled="disabled" />
+                    <label for="test8">Brown</label>
+                </p>
+            </form>
+            <pre>
+                <code>
+    &lt;form action="#"&gt;
+        &lt;p&gt;
+            &lt;input type="checkbox" id="test5" /&gt;
+            &lt;label for="test5"&gt;Red&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;input type="checkbox" id="test6" <span class="red-text">checked="checked"</span>  /&gt; <span class="green-text">&lt;!--默认选中  默认的样式是一个√--&gt;</span>
+            &lt;label for="test6"&gt;Yellow&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;input type="checkbox" <span class="red-text">class="filled-in" </span> id="filled-in-box" checked="checked" /&gt; <span class="green-text">&lt;!--填充效果--&gt;</span>
+            &lt;label for="filled-in-box"&gt;Filled in&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;input type="checkbox" id="test7" <span class="red-text">checked="checked" disabled="disabled"</span> /&gt;<span class="green-text">&lt;!--默认选中且不能更改。--&gt;</span>
+            &lt;label for="test7"&gt;Green&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;input type="checkbox" id="test8" disabled="disabled" /&gt;
+            &lt;label for="test8"&gt;Brown&lt;/label&gt;
+        &lt;/p&gt;
+    &lt;/form&gt;
+                </code>
+            </pre>
+        </div>
+        <h4>10、Switches 开关型按钮</h4>
+        <div class="switch">
+        <label>
+            关
+            <input type="checkbox">
+            <span class="lever"></span>
+            开
+        </label>
+    </div>
+        <br>
+        <!-- Disabled Switch -->
+        <div class="switch">
+            <label>
+                关
+                <input disabled type="checkbox">
+                <span class="lever"></span>
+                开
+            </label>
+        </div>
+        <pre>
+            <code>
+                &lt;div class="switch"&gt;
+                    &lt;label&gt;
+                    Off
+                    &lt;input type="checkbox"&gt;
+                    &lt;span class="lever"&gt;&lt;/span&gt;
+                    On
+                    &lt;/label&gt;
+                &lt;/div&gt;
+
+                &lt;!-- Disabled Switch --&gt;
+                &lt;div class="switch"&gt;
+                    &lt;label&gt;
+                    Off
+                    &lt;input disabled type="checkbox"&gt;
+                    &lt;span class="lever"&gt;&lt;/span&gt;
+                    On
+                    &lt;/label&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>11、文件上传</h4>
+        <form action="#">
+            <div class="file-field input-field">
+                <input class="file-path validate" type="text" value="请选择文件上传"/>
+                <div class="btn">
+                    <input type="file"  />
+                    <span>
+                        <i class="material-icons">shuffle</i>
+                    </span>
+                </div>
+            </div>
+        </form>
+        <pre>
+            <code>
+    &lt;form action="#"&gt;
+        &lt;div class="file-field input-field"&gt;
+            &lt;input class="file-path validate" type="text" value="请选择文件上传"/&gt;
+            &lt;div class="btn"&gt;
+                &lt;input type="file"  /&gt;
+                &lt;span&gt;
+                &lt;i class="material-icons"&gt;shuffle&lt;/i&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+            </code>
+        </pre>
+        <h4>12、range 范围 </h4>
+        <form action="#">
+            <p class="range-field">
+                <input type="range" id="test5" min="0" max="100" />
+            </p>
+        </form>
+        <pre>
+            <code>
+    &lt;<span class="purple-text">form </span> <span class="green-text">action</span>="<span class="black-text">#</span> "&gt;
+        &lt;p class="range-field"&gt;
+            &lt;input type="range" id="test5" min="0" max="100" /&gt;
+        &lt;/p&gt;
+    &lt;/<span class="purple-text">form </span>&gt;
+            </code>
+        </pre>
+        <h4>13、Date Pickerr日期选择</h4>
+        <input type="date" class="datepicker">
+        <pre>
+            <code>
+                &lt;input type="date" class="datepicker"&gt;
+                $('.datepicker').pickadate({
+                selectMonths: true, // Creates a dropdown to control month
+                selectYears: 15 // Creates a dropdown of 15 years to control year
+                });
+            </code>
+        </pre>
+        <h4>14、Character Counter字数控制输入</h4>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field materialize-textarea col s6 m6 l6">
+                        <input id="input_text" type="text" length="10">
+                        <label for="input_text">Input text</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea" length="120"></textarea>
+                        <label for="textarea1">Textarea</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="row"&gt;
+        &lt;form class="col s12"&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="input-field col s6"&gt;
+                    &lt;input id="input_text" type="text" length="10"&gt;
+                    &lt;label for="input_text"&gt;Input text&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="row"&gt;
+                &lt;div class="input-field col s12"&gt;
+                    &lt;textarea id="textarea1" class="materialize-textarea" length="120"&gt;&lt;/textarea&gt;
+                    &lt;label for="textarea1"&gt;Textarea&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Icons 图标</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、使用</h4>
+        STEP1 ： 头部引入<span class="green-text">&lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;</span> <br/>
+        STEP2 ： 图标显示代码<Span class="green-text">&lt;i class="material-icons"&gt;add&lt;/i&gt;</Span> <br/>
+        <h4>2、大小</h4>
+        <div class="row">
+            <div class="center-align">
+                <div class="col s3"><i class="material-icons tiny icon-demo">insert_chart</i><br><p>Tiny</p></div>
+                <div class="col s3"><i class="material-icons small icon-demo">insert_chart</i><br><p>Small</p></div>
+                <div class="col s3"><i class="material-icons medium icon-demo">insert_chart</i><br><p>Medium</p></div>
+                <div class="col s3"><i class="material-icons large icon-demo">insert_chart</i><br><p>Large</p></div>
+            </div>
+        </div>
+        <div class="row icon-container center-align">
+            <br><br>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">info_outline</i><br><span>info_outline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">input</i><br><span>input</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">invert_colors</i><br><span>invert_colors</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">label</i><br><span>label</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">label_outline</i><br><span>label_outline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">language</i><br><span>language</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">query_builder</i><br><span>query_builder</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">perm_identity</i><br><span>perm_identity</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">perm_media</i><br><span>perm_media</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">perm_phone_msg</i><br><span>perm_phone_msg</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">perm_scan_wifi</i><br><span>perm_scan_wifi</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">picture_in_picture</i><br><span>picture_in_picture</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">play_for_work</i><br><span>play_for_work</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">polymer</i><br><span>polymer</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">power_settings_new</i><br><span>power_settings_new</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">print</i><br><span>print</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">thumb_down</i><br><span>thumb_down</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">thumb_up</i><br><span>thumb_up</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">thumbs_up_down</i><br><span>thumbs_up_down</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">email</i><br><span>email</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">dialpad</i><br><span>dialpad</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">dialer_sip</i><br><span>dialer_sip</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">contacts</i><br><span>contacts</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">forward_5</i><br><span>forward_5</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">stay_current_portrait</i><br><span>stay_current_portrait</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">stay_primary_landscape</i><br><span>stay_primary_landscape</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">stay_primary_portrait</i><br><span>stay_primary_portrait</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">swap_calls</i><br><span>swap_calls</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">textsms</i><br><span>textsms</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">voicemail</i><br><span>voicemail</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">vpn_key</i><br><span>vpn_key</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">group_work</i><br><span>group_work</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">grade</i><br><span>grade</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">clear_all</i><br><span>clear_all</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">chat_bubble_outline</i><br><span>chat_bubble_outline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">chat_bubble</i><br><span>chat_bubble</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">repeat</i><br><span>repeat</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">repeat_one</i><br><span>repeat_one</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">replay</i><br><span>replay</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">replay_10</i><br><span>replay_10</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">replay_30</i><br><span>replay_30</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">replay_5</i><br><span>replay_5</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">shuffle</i><br><span>shuffle</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">skip_next</i><br><span>skip_next</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">skip_previous</i><br><span>skip_previous</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">contact_phone</i><br><span>contact_phone</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">comment</i><br><span>comment</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">recent_actors</i><br><span>recent_actors</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">snooze</i><br><span>snooze</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">sort_by_alpha</i><br><span>sort_by_alpha</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">stop</i><br><span>stop</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">subtitles</i><br><span>subtitles</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">surround_sound</i><br><span>surround_sound</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">web</i><br><span>web</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">volume_up</i><br><span>volume_up</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">volume_off</i><br><span>volume_off</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">volume_mute</i><br><span>volume_mute</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">toc</i><br><span>toc</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">today</i><br><span>today</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">toll</i><br><span>toll</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">track_changes</i><br><span>track_changes</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">translate</i><br><span>translate</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">trending_down</i><br><span>trending_down</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">question_answer</i><br><span>question_answer</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">receipt</i><br><span>receipt</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">done</i><br><span>done</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">tab</i><br><span>tab</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">tab_unselected</i><br><span>tab_unselected</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">theaters</i><br><span>theaters</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">hd</i><br><span>hd</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">games</i><br><span>games</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">hearing</i><br><span>hearing</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_module</i><br><span>view_module</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_list</i><br><span>view_list</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_remote</i><br><span>settings_remote</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_voice</i><br><span>settings_voice</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">search</i><br><span>search</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings</i><br><span>settings</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_applications</i><br><span>settings_applications</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_backup_restore</i><br><span>settings_backup_restore</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_bluetooth</i><br><span>settings_bluetooth</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_brightness</i><br><span>settings_brightness</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_cell</i><br><span>settings_cell</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_ethernet</i><br><span>settings_ethernet</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_input_antenna</i><br><span>settings_input_antenna</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">trending_flat</i><br><span>trending_flat</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">trending_up</i><br><span>trending_up</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">work</i><br><span>work</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">youtube_searched_for</i><br><span>youtube_searched_for</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">zoom_in</i><br><span>zoom_in</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">my_location</i><br><span>my_location</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">visibility_off</i><br><span>visibility_off</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">visibility</i><br><span>visibility</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_week</i><br><span>view_week</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_stream</i><br><span>view_stream</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_quilt</i><br><span>view_quilt</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">video_library</i><br><span>video_library</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">videocam</i><br><span>videocam</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">videocam_off</i><br><span>videocam_off</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">volume_down</i><br><span>volume_down</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_overscan</i><br><span>settings_overscan</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_input_svideo</i><br><span>settings_input_svideo</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_input_hdmi</i><br><span>settings_input_hdmi</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_input_composite</i><br><span>settings_input_composite</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_input_component</i><br><span>settings_input_component</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">launch</i><br><span>launch</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">perm_device_information</i><br><span>perm_device_information</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">perm_data_setting</i><br><span>perm_data_setting</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">zoom_out</i><br><span>zoom_out</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">alarm_on</i><br><span>alarm_on</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">dns</i><br><span>dns</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">redeem</i><br><span>redeem</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">reorder</i><br><span>reorder</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">report_problem</i><br><span>report_problem</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">restore</i><br><span>restore</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">room</i><br><span>room</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">schedule</i><br><span>schedule</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">movie</i><br><span>movie</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">android</i><br><span>android</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">announcement</i><br><span>announcement</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">mic_off</i><br><span>mic_off</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">mic_none</i><br><span>mic_none</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">swap_horiz</i><br><span>swap_horiz</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">swap_vert</i><br><span>swap_vert</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">swap_vertical_circle</i><br><span>swap_vertical_circle</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">system_update_alt</i><br><span>system_update_alt</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">subtitles</i><br><span>subtitles</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">present_to_all</i><br><span>present_to_all</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">portable_wifi_off</i><br><span>portable_wifi_off</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">phonelink_setup</i><br><span>phonelink_setup</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">phonelink_ring</i><br><span>phonelink_ring</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">phonelink_lock</i><br><span>phonelink_lock</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">phonelink_erase</i><br><span>phonelink_erase</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">person_pin</i><br><span>person_pin</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">navigation</i><br><span>navigation</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">new_releases</i><br><span>new_releases</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">not_interested</i><br><span>not_interested</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">pause</i><br><span>pause</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">pause_circle_filled</i><br><span>pause_circle_filled</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">pause_circle_outline</i><br><span>pause_circle_outline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">play_arrow</i><br><span>play_arrow</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">play_circle_filled</i><br><span>play_circle_filled</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">play_circle_outline</i><br><span>play_circle_outline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">playlist_add</i><br><span>playlist_add</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">queue</i><br><span>queue</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">queue_music</i><br><span>queue_music</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">radio</i><br><span>radio</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">class</i><br><span>class</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">code</i><br><span>code</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">credit_card</i><br><span>credit_card</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">dashboard</i><br><span>dashboard</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">delete</i><br><span>delete</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">description</i><br><span>description</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">open_with</i><br><span>open_with</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">pageview</i><br><span>pageview</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">payment</i><br><span>payment</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">perm_camera_mic</i><br><span>perm_camera_mic</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">perm_contact_calendar</i><br><span>perm_contact_calendar</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">airplay</i><br><span>airplay</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">done_all</i><br><span>done_all</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">phone</i><br><span>phone</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">no_sim</i><br><span>no_sim</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">invert_colors_off</i><br><span>invert_colors_off</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">chat</i><br><span>chat</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">call_split</i><br><span>call_split</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">call_received</i><br><span>call_received</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">call_missed</i><br><span>call_missed</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">call_merge</i><br><span>call_merge</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">call_made</i><br><span>call_made</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">call_end</i><br><span>call_end</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">call</i><br><span>call</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">business</i><br><span>business</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">stop</i><br><span>stop</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">sort_by_alpha</i><br><span>sort_by_alpha</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">snooze</i><br><span>snooze</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">comment</i><br><span>comment</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">clear_all</i><br><span>clear_all</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">chat_bubble_outline</i><br><span>chat_bubble_outline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">chat_bubble</i><br><span>chat_bubble</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">alarm_off</i><br><span>alarm_off</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">message</i><br><span>message</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">location_on</i><br><span>location_on</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">location_off</i><br><span>location_off</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">live_help</i><br><span>live_help</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">album</i><br><span>album</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">av_timer</i><br><span>av_timer</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">closed_caption</i><br><span>closed_caption</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">equalizer</i><br><span>equalizer</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">turned_in_not</i><br><span>turned_in_not</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">verified_user</i><br><span>verified_user</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_agenda</i><br><span>view_agenda</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_array</i><br><span>view_array</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_carousel</i><br><span>view_carousel</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_column</i><br><span>view_column</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">subject</i><br><span>subject</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">supervisor_account</i><br><span>supervisor_account</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_power</i><br><span>settings_power</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">shop</i><br><span>shop</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">shop_two</i><br><span>shop_two</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">shopping_basket</i><br><span>shopping_basket</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">shopping_cart</i><br><span>shopping_cart</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">speaker_notes</i><br><span>speaker_notes</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">spellcheck</i><br><span>spellcheck</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">star_rate</i><br><span>star_rate</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">stars</i><br><span>stars</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">store</i><br><span>store</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">ring_volume</i><br><span>ring_volume</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">speaker_phone</i><br><span>speaker_phone</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">stay_current_landscape</i><br><span>stay_current_landscape</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">forum</i><br><span>forum</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">import_export</i><br><span>import_export</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">open_in_browser</i><br><span>open_in_browser</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">open_in_new</i><br><span>open_in_new</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">forward_30</i><br><span>forward_30</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">turned_in</i><br><span>turned_in</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_headline</i><br><span>view_headline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">view_day</i><br><span>view_day</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">warning</i><br><span>warning</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">error_outline</i><br><span>error_outline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">error</i><br><span>error</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">add_alert</i><br><span>add_alert</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">settings_phone</i><br><span>settings_phone</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">forward_10</i><br><span>forward_10</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">fast_rewind</i><br><span>fast_rewind</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">fast_forward</i><br><span>fast_forward</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">explicit</i><br><span>explicit</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">list</i><br><span>list</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">lock</i><br><span>lock</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">lock_open</i><br><span>lock_open</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">lock_outline</i><br><span>lock_outline</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">loyalty</i><br><span>loyalty</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">markunread_mailbox</i><br><span>markunread_mailbox</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">note_add</i><br><span>note_add</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">offline_pin</i><br><span>offline_pin</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">http</i><br><span>http</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">mic</i><br><span>mic</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">loop</i><br><span>loop</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">library_music</i><br><span>library_music</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">library_books</i><br><span>library_books</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">library_add</i><br><span>library_add</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">high_quality</i><br><span>high_quality</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">surround_sound</i><br><span>surround_sound</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">info</i><br><span>info</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">https</i><br><span>https</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">aspect_ratio</i><br><span>aspect_ratio</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">assessment</i><br><span>assessment</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">assignment</i><br><span>assignment</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">assignment_ind</i><br><span>assignment_ind</span></div>
+            <div class="icon-preview col s6 m3"><i class="material-icons small">assignment_late</i><br><span>assignment_late</span></div>
+        </div>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Navibar 导航栏</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <br/>
+        <br/>
+        <br/>
+        <h4>1、图标位置 “左” “ 中” “ 右”</h4>
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Logo</a>
+                    <ul id="nav-mobile11" class="right hide-on-med-and-down">
+                        <li><a href="#">Sass</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo center" >Logo</a>
+                    <ul id="nav-mobile2" class="right hide-on-med-and-down">
+                        <li><a href="#">Sass</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class=" right" >Logo</a>
+                    <ul id="nav-mobile3" class="left hide-on-med-and-down">
+                        <li><a href="#">Sass</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <pre>
+            <code>
+    &lt;nav&gt;
+        &lt;div <span class="red-text">class="nav-wrapper"</span>&gt;
+            &lt;a href="#" <span class="purple-text">class="brand-logo"</span> &gt;Logo&lt;/a&gt;
+            &lt;ul id="nav-mobile" class="right hide-on-med-and-down"&gt;
+                &lt;li&gt;&lt;a href="sass.html"&gt;Sass&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="badges.html"&gt;Components&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="collapsible.html"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+            </code>
+        </pre>
+        <h4>2、active items 活跃选项</h4>
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Logo</a>
+                    <ul id="nav-mobile1" class="right hide-on-med-and-down">
+                        <li class="active"><a href="#">Sass</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <h4>3、fixed navbar 固定导航栏</h4>
+        <div class="row" style="background-color: #6a41a7">
+            <div class="navbar-fixed">
+                <nav>
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo">Logo</a>
+                        <ul class="right ">
+                            <li><a href="#">Sass</a></li>
+                            <li><a href="#">Components</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <h4>4、导航栏下拉框</h4>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#">one</a></li>
+            <li><a href="#">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#">three</a></li>
+        </ul>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Sass</a></li>
+                    <li><a href="#">Components</a></li>
+                    <!-- Dropdown Trigger -->
+                    <li><a class="dropdown-button" href="#" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <pre>
+            <code>
+    &lt;ul id="dropdown1" class="dropdown-content"&gt;
+        &lt;li&gt;&lt;a href="#"&gt;one&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;two&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="divider"&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;three&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;nav&gt;
+        &lt;div class="nav-wrapper"&gt;
+            &lt;a href="#" class="brand-logo"&gt;Logo&lt;/a&gt;
+            &lt;ul class="right hide-on-med-and-down"&gt;
+                &lt;li&gt;&lt;a href="sass.html"&gt;Sass&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="badges.html"&gt;Components&lt;/a&gt;&lt;/li&gt;
+                &lt;!-- Dropdown Trigger --&gt;
+                &lt;li&gt;&lt;a class="dropdown-button" href="#" data-activates="dropdown1"&gt;Dropdown&lt;i class="material-icons right"&gt;arrow_drop_down&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+            </code>
+        </pre>
+        <h4>5、Icon Links图标链接</h4>
+
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons">search</i></a></li>
+                    <li><a href="#"><i class="material-icons">view_module</i></a></li>
+                    <li><a href="#"><i class="material-icons">refresh</i></a></li>
+                    <li><a href="#"><i class="material-icons">more_vert</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Logo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons left">search</i>Link with Left Icon</a></li>
+                    <li><a href="#"><i class="material-icons right">view_module</i>Link with Right Icon</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h4>6、Search Bar搜索框！</h4>
+        <!--<nav>
+            <div class="nav-wrapper">
+                <form>
+                    <div class="input-field">
+                        <input id="search" type="search" required>
+                        <label for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                    </div>
+                </form>
+            </div>
+        </nav>-->
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Pagination 分页</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <ul class="pagination">
+                <li class="disabled"><a href="#"><i class="material-icons">chevron_left</i></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li class="waves-effect"><a href="#">2</a></li>
+                <li class="waves-effect"><a href="#">3</a></li>
+                <li class="waves-effect"><a href="#">4</a></li>
+                <li class="waves-effect"><a href="#">5</a></li>
+                <li class="waves-effect"><a href="#"><i class="material-icons">chevron_right</i></a></li>
+            </ul>
+        </div>
+        <pre>
+            <code>
+    &lt;ul <span class="red-text">class="pagination"</span>&gt;
+        &lt;li class="disabled"&gt;&lt;a href="#"&gt;&lt;i class="material-icons"&gt;chevron_left&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="active"&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="waves-effect"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="waves-effect"&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="waves-effect"&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="waves-effect"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="waves-effect"&gt;&lt;a href="#"&gt;&lt;i class="material-icons"&gt;chevron_right&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Preloader 预加载</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、liner线性加载条</h4>
+        <h5>A :Determinate进度终止型</h5>
+        <div class="progress">
+            <div class="determinate" style="width: 50%"></div>
+        </div>
+        <div class="progress">
+            <div class="determinate" style="width: 60%"></div>
+        </div>
+        <div class="progress">
+            <div class="determinate" style="width: 70%"></div>
+        </div>
+        <div class="progress">
+            <div class="determinate" style="width: 80%"></div>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="progress"&gt;
+        &lt;div <span class="green-text">class="determinate"</span> style="width: 70%"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+
+        <h5>B :InDeterminate进度循环型</h5>
+        <div class="progress">
+            <div class="indeterminate"></div>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="progress"&gt;
+        &lt;div <span class="green-text">class="indeterminate"</span>  &gt;&lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>2、Circular圆环加载 单一颜色</h4>
+        <div class="row">
+            <div class="col s12 m4 center">
+                <div class="preloader-wrapper big active">
+                    <div class="spinner-layer spinner-blue-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 center">
+                <div class="preloader-wrapper active">
+                    <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 center">
+                <div class="preloader-wrapper small active">
+                    <div class="spinner-layer spinner-green-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="col s12 m4 center"&gt;
+        &lt;div class="preloader-wrapper small active"&gt;
+            &lt;div class="spinner-layer spinner-green-only"&gt;
+                &lt;div class="circle-clipper left"&gt;
+                    &lt;div class="circle"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="gap-patch"&gt;
+                    &lt;div class="circle"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="circle-clipper right"&gt;
+                    &lt;div class="circle"&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>3、Circular圆环加载 变色</h4>
+        <div class="row">
+            <div class="col s12 m4 center">
+                <div class="preloader-wrapper big active">
+                    <div class="spinner-layer spinner-blue-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 center">
+
+                <div class="preloader-wrapper active">
+                    <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col s12 m4 center">
+
+                <div class="preloader-wrapper small active">
+                    <div class="spinner-layer spinner-green-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="preloader-wrapper big active"&gt;
+    &lt;div class="spinner-layer spinner-blue"&gt;
+    &lt;div class="circle-clipper left"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div class="gap-patch"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div class="circle-clipper right"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="spinner-layer spinner-red"&gt;
+    &lt;div class="circle-clipper left"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div class="gap-patch"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div class="circle-clipper right"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="spinner-layer spinner-yellow"&gt;
+    &lt;div class="circle-clipper left"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div class="gap-patch"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div class="circle-clipper right"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="spinner-layer spinner-green"&gt;
+    &lt;div class="circle-clipper left"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div class="gap-patch"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;div class="circle-clipper right"&gt;
+    &lt;div class="circle"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Collapsible 折叠卡片</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+       <h4>1、基本的下拉式 每次只能弹出一个</h4>
+       <ul data-collapsible="accordion" class="collapsible collapsible-accordion">
+           <li class="">
+               <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+               <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+           </li>
+           <li class="">
+               <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+               <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+           </li>
+           <li class="">
+               <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+               <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+           </li>
+       </ul>
+       <pre>
+           <code>
+   &lt;ul data-collapsible="accordion" class="collapsible collapsible-accordion"&gt;
+       &lt;li class=""&gt;
+           &lt;div class="collapsible-header"&gt;&lt;i class="material-icons"&gt;filter_drama&lt;/i&gt;First&lt;/div&gt;
+           &lt;div class="collapsible-body" style="display: none;"&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li class=""&gt;
+           &lt;div class="collapsible-header"&gt;&lt;i class="material-icons"&gt;place&lt;/i&gt;Second&lt;/div&gt;
+           &lt;div class="collapsible-body" style="display: none;"&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;/div&gt;
+       &lt;/li&gt;
+       &lt;li class=""&gt;
+           &lt;div class="collapsible-header"&gt;&lt;i class="material-icons"&gt;whatshot&lt;/i&gt;Third&lt;/div&gt;
+           &lt;div class="collapsible-body" style="display: none;"&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;&lt;/div&gt;
+       &lt;/li&gt;
+   &lt;/ul&gt;
+           </code>
+       </pre>
+       <h4>2、弹出式 每次只能弹出一个</h4>
+       <ul data-collapsible="accordion" class="collapsible popout collapsible-accordion">
+           <li class="">
+               <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+               <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+           </li>
+           <li class="">
+               <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+               <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+           </li>
+           <li class="">
+               <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+               <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+           </li>
+       </ul>
+       <pre>
+           <code>
+   &lt;<span class="red-text">ul</span> <span class="green-text">class</span>="<span class="blue-grey-text">ollapsible popout</span> " <span class="green-text">data-collapsible</span>="<span class="blue-grey-text">accordion</span>"&gt;
+           </code>
+       </pre>
+       <h4>3、预加载 active</h4>
+       <pre>
+           <code>
+   &lt;div class="collapsible-header active"&gt;&lt;i class="mdi-maps-place"&gt;&lt;/i&gt;Second&lt;/div&gt;
+           </code>
+       </pre>
+       <h4>4、两种折叠翻方式<br/> accordion&lt;只能弹开以一个&gt; <br/>Expandable&lt;可以弹开任意个&gt;</h4>
+       <ul data-collapsible="accordion" class="collapsible collapsible-accordion">
+       <li class="">
+           <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
+           <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+       </li>
+       <li class="">
+           <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+           <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+       </li>
+       <li class="">
+           <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+           <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+       </li>
+       </ul>
+       <pre>
+           <code>
+   &lt;ul class="collapsible" data-collapsible="<span class="green-text">accordion</span> "&gt;
+           </code>
+       </pre>
+       <ul data-collapsible="expandable" class="collapsible collapsible-accordion">
+       <li class="">
+           <div class="collapsible-header active"><i class="material-icons">filter_drama</i>First</div>
+           <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ris nisi ut aliquip ex ea commodo consequat.</p></div>
+       </li>
+       <li class="">
+           <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
+           <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+       </li>
+       <li class="">
+           <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
+           <div class="collapsible-body" style="display: none;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+       </li>
+       </ul>
+       <pre>
+           <code>
+   &lt;ul class="collapsible" data-collapsible="<span class="green-text">expandable</span> "&gt;
+           </code>
+       </pre>
+   </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Dialogs 对话框</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h4>1、Toasts(弹出)</h4>
+        <a class="waves-effect waves-light teal btn" onclick="Materialize.toast('I am a toast', 4000)">Toasts</a>
+        <pre>
+            <code>
+    在js里实现
+        // Materialize.toast(message, displayLength, className, completeCallback);
+        <span class="green-text">Materialize.toast('I am a toast!', 4000)</span> // 4000 is the duration of the toast
+
+        var $toastContent = $('I am toast content');
+        Materialize.toast($toastContent, 5000);
+
+
+    在页面实现
+        &lt;a class="btn" <span class="green-text">onclick="Materialize.toast('I am a toast', 4000)"</span> &gt;Toast!&lt;/a&gt;
+
+
+        带回调函数
+        &lt;a class="btn" onclick="Materialize.toast('I am a toast', 4000,'',function(){alert('Your toast was dismissed')})"&gt;Toast! &lt;/a&gt;
+
+            </code>
+        </pre>
+        <h4>2、圆角Toasts(弹出)</h4>
+        <a class="waves-effect waves-light teal btn" onclick="Materialize.toast('I am a toast', 4000,'rounded')">Toasts</a>
+        <pre>
+            <code>
+    &lt;a class="waves-effect waves-light teal btn" onclick="Materialize.toast('I am a toast', 4000,'rounded')"&gt;Toasts&lt;/a&gt;
+            </code>
+        </pre>
+        <h4>1、Tooltips小提示(弹出)</h4>
+        <div class="row">
+            <a data-tooltip="I am tooltip" data-delay="50" data-position="bottom" class="btn tooltipped col s4 offset-s4 l2 offset-l1" data-tooltip-id="73bb8dac-0338-7489-2519-855825ef4ce8"> Bottom</a>
+            <a data-tooltip="I am tooltip" data-delay="50" data-position="top" class="btn tooltipped col s4 offset-s4 l2 offset-l1" data-tooltip-id="7180132b-8eaa-70d1-a047-efc106f2d5a0"> Top</a>
+            <a data-tooltip="I am tooltip" data-delay="50" data-position="left" class="btn tooltipped col s4 offset-s4 l2 offset-l1" data-tooltip-id="9f93adae-12e8-7a65-30a6-3df8ee0a8f1e"> Left</a>
+            <a data-tooltip="I am tooltip" data-delay="50" data-position="right" class="btn tooltipped col s4 offset-s4 l2 offset-l1" data-tooltip-id="317173fb-8bc7-b359-a2b5-1b88b4a501b0"> Right</a>
+        </div>
+        <pre>
+            <code>
+
+    &lt;!-- data-position can be : bottom, top, left, or right --&gt;
+    &lt;!-- data-delay controls delay before tooltip shows (in milliseconds)--&gt;
+    &lt;a class="btn <Span class="purple-text">tooltipped</Span> " <Span class="purple-text">data-position="bottom"</Span> data-delay="50" data-tooltip="I am tooltip"&gt;Hover me!&lt;/a&gt;
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Dropdown 下拉框</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <br>
+        <span class="red-text">每个下拉框的id都不一样！</span><br>
+        <span class="red-text">每个下拉框的id都不一样！</span><br>
+        <!-- Dropdown Trigger -->
+        <a class='dropdown-button btn' href='#' data-activates='dropdown11'>Drop Me!</a>
+
+        <!-- Dropdown Structure -->
+        <ul id='dropdown11' class='dropdown-content'>
+            <li><a href="#">1111111</a></li>
+            <li><a href="#">2222</a></li>
+            <li class="divider"></li>
+            <li><a href="#">33333</a></li>
+        </ul>
+        <pre>
+            <code>
+
+    &lt;!-- Dropdown Trigger --&gt;
+    &lt;a class='dropdown-button btn' href='#' data-activates='dropdown1'&gt;Drop Me!&lt;/a&gt;
+
+    &lt;!-- Dropdown Structure --&gt;
+    &lt;ul id='dropdown1' class='dropdown-content'&gt;
+    &lt;li&gt;&lt;a href="#"&gt;one&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;two&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="divider"&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;three&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+            </code>
+        </pre>
+        <div class="section scrollspy" id="options">
+            <h4>Options 参数 写在jquey里面</h4>
+            <table class="striped">
+                <thead>
+                <tr>
+                    <th>Option Name</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>induration</td>
+                    <td>The duration of the transition enter in milliseconds. Default: 300</td>
+                </tr>
+                <tr>
+                    <td>outduration</td>
+                    <td>The duration of the transition out in milliseconds. Default: 225</td>
+                </tr>
+                <tr>
+                    <td>constrainwidth</td>
+                    <td>If true, constrainWidth to the size of the dropdown activator. Default: true</td>
+                </tr>
+                <tr>
+                    <td>hover</td>
+                    <td>If true, the dropdown will open on hover. Default: false</td>
+                </tr>
+                <tr>
+                    <td>gutter</td>
+                    <td>This defines the spacing from the aligned edge. Default: 0</td>
+                </tr>
+                <tr>
+                    <td>beloworigin</td>
+                    <td>If true, the dropdown will show below the activator. Default: false</td>
+                </tr>
+                <tr>
+                    <td>alignment</td>
+                    <td>Defines the edge the menu is aligned to. Default: 'left'</td>
+                </tr>
+                </tbody>
+            </table>
+            <p>To use these inline you have to add them as data attributes. If you want more dynamic control, you can define them using the jQuery plugin below. </p>
+        <pre class=" language-markup"><code class=" language-markup">
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span>'dropdown-button btn'</span> <span class="token attr-name">data-beloworigin</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span>'#'</span> <span class="token attr-name">data-activates</span><span class="token attr-value"><span class="token punctuation">=</span>'dropdown1'</span><span class="token punctuation">&gt;</span></span>Drop Me!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+        </code></pre>
+        </div>
+
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Media 媒体</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <br>
+        <span class="purple-text f24 ">媒体包括 图片 视频 音频等等！</span>
+        <br>
+        <h4>1、Material Box 媒体盒子，这个主要是针对图片而言</h4>
+        <img class="materialboxed" width="650px" src="imgs/demo-01.jpg">
+        <pre>
+            <code>
+    &lt;<span class="purple-text">img</span> <span class="green-text">class</span>="<span class="blue-text">materialboxed</span> " <span class="green-text">width</span>="650" src="images/sample-1.jpg"&gt;
+
+    JS支持
+    $(document).ready(function(){
+    $('.materialboxed').materialbox();
+    });
+
+            </code>
+        </pre>
+        <h4>2、Captions 带标题</h4>
+        <div class="row">
+            <div class="col s3"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="imgs/huahua.jpg"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="http://ww1.sinaimg.cn/bmiddle/85be27aagw1ew2fl2j2q3j20bu0hs75m.jpg"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="http://ww2.sinaimg.cn/bmiddle/4dbc6c9ajw1eut56fl7c6j21ap1tfh14.jpg"></div>
+            <div class="col s3 offset-s1"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="imgs/huahua2.jpg"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="http://wt.sinaimg.cn/bmiddle/49393842jw1et0d97lb5dj20ku0rsgrn.jpg"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="http://ww2.sinaimg.cn/bmiddle/4dbc6c9ajw1eut56hoqapj21111jkdq7.jpg"></div>
+            <div class="col s3 offset-s1"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="imgs/imgdemo.jpg"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="http://ww1.sinaimg.cn/mw1024/9d52c073gw1evyrvd3gsaj20j60pkgpb.jpg"><img class=" materialboxed" data-caption="孙老师的标题" width="250px"  src="http://ww1.sinaimg.cn/bmiddle/4dbc6c9ajw1eut56d9u5bj22wh4cqe82.jpg"></div>
+        </div>
+        <pre>
+            <code>
+                <span class="green-text f24" style="font-family:Courier,sans-serif">定义好的三列。宽度固定，只要往里面塞图片啊就好了</span>
+            </code>
+        </pre>
+        <h4>3、Slider焦点图</h4>
+        <div class="slider" style="height: 440px;">
+            <ul class="slides" style="height: 400px;">
+                <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);">
+                    <img src="imgs/1.jpg" style="background-image:url('imgs/1.jpg');"> <!-- random image -->
+                    <div class="caption center-align" style="opacity: 0; transform: translateY(-100px) translateX(0px);">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li class="active" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+                    <img src="imgs/2.jpg" style="background-image: url(&quot;imgs/2.jpg&quot;);"> <!-- random image -->
+                    <div class="caption left-align" style="opacity: 1; transform: translateX(0px) translateY(0px);">
+                        <h3>Left Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);">
+                    <img src="imgs/3.jpg" style="background-image: url(&quot;imgs/3.jpg&quot;);"> <!-- random image -->
+                    <div class="caption right-align" style="opacity: 0; transform: translateX(100px) translateY(0px);">
+                        <h3>Right Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li class="" style="opacity: 0; transform: translateX(0px) translateY(0px);">
+                    <img src="imgs/4.jpg" style="background-image: url(&quot;imgs/4.jpg&quot;);"> <!-- random image -->
+                    <div class="caption center-align" style="opacity: 0; transform: translateY(-100px) translateX(0px);">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="slider"&gt;
+        &lt;ul class="slides"&gt;
+            &lt;li&gt;
+                &lt;img src="http://lorempixel.com/580/250/nature/1"&gt; &lt;!-- random image --&gt;
+                &lt;div class="caption center-align"&gt;
+                    &lt;h3&gt;This is our big Tagline!&lt;/h3&gt;
+                    &lt;h5 class="light grey-text text-lighten-3"&gt;Here's our small slogan.&lt;/h5&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;img src="http://lorempixel.com/580/250/nature/2"&gt; &lt;!-- random image --&gt;
+                &lt;div class="caption left-align"&gt;
+                    &lt;h3&gt;Left Aligned Caption&lt;/h3&gt;
+                    &lt;h5 class="light grey-text text-lighten-3"&gt;Here's our small slogan.&lt;/h5&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;img src="http://lorempixel.com/580/250/nature/3"&gt; &lt;!-- random image --&gt;
+                &lt;div class="caption right-align"&gt;
+                    &lt;h3&gt;Right Aligned Caption&lt;/h3&gt;
+                    &lt;h5 class="light grey-text text-lighten-3"&gt;Here's our small slogan.&lt;/h5&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+                &lt;img src="http://lorempixel.com/580/250/nature/4"&gt; &lt;!-- random image --&gt;
+                &lt;div class="caption center-align"&gt;
+                    &lt;h3&gt;This is our big Tagline!&lt;/h3&gt;
+                    &lt;h5 class="light grey-text text-lighten-3"&gt;Here's our small slogan.&lt;/h5&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Modals 弹出</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="section scrollspy" id="introduction">
+                    <h4>Introduction</h4>
+                    <p>必须唯一指定Modal ID<code class=" language-css blue-text">.modal-close</code> to your button.</p>
+                    <a href="#modal1" class="waves-effect waves-light btn modal-trigger">Modal</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#modal2" class="waves-effect waves-light btn modal-trigger">Modal With Fixed Footer</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#modal3" class="waves-effect waves-light btn modal-trigger">Modal Bottom Sheet Style</a>
+
+                    <!--    第一个modal的具体内容！第一个modal的具体内容！第一个modal的具体内容！第一个modal的具体内容！第一个modal的具体内容！-->
+                    <div class="modal" id="modal1">
+                        <div class="modal-content">
+                            <h4>Modal Header</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="modal-action modal-close waves-effect waves-red btn-flat " >Disagree</a>
+                            <a class="modal-action modal-close waves-effect waves-green btn-flat " >Agree</a>
+                        </div>
+                    </div>
+                   <!-- 第二个modal的内容第二个modal的内容第二个modal的内容第二个modal的内容第二个modal的内容第二个modal的内容第二个modal的内容-->
+                    <div class="modal modal-fixed-footer" id="modal2">
+                        <div class="modal-content">
+                            <h4>Modal Header</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a class="modal-action modal-close waves-effect waves-red btn-flat " >Disagree</a>
+                            <a class="modal-action modal-close waves-effect waves-green btn-flat " >Agree</a>
+                        </div>
+                    </div>
+                    <!--第三个modal的内容第三个modal的内容第三个modal的内容第三个modal的内容第三个modal的内容第三个modal的内容第三个modal的内容-->
+                    <div class="modal bottom-sheet" id="modal3">
+                        <div class="modal-content">
+                            <h4>Modal Header</h4>
+                            <ul class="collection">
+                                <li class="collection-item avatar">
+                                    <img class="circle" alt="" src="imgs/yuna.jpg">
+                                    <span class="title">Title</span>
+                                    <p>First Line <br>
+                                        Second Line
+                                    </p>
+                                    <a class="secondary-content" ><i class="material-icons">grade</i></a>
+                                </li>
+                                <li class="collection-item avatar">
+                                    <i class="material-icons circle">folder</i>
+                                    <span class="title">Title</span>
+                                    <p>First Line <br>
+                                        Second Line
+                                    </p>
+                                    <a class="secondary-content" ><i class="material-icons">grade</i></a>
+                                </li>
+                                <li class="collection-item avatar">
+                                    <i class="material-icons circle green">assessment</i>
+                                    <span class="title">Title</span>
+                                    <p>First Line <br>
+                                        Second Line
+                                    </p>
+                                    <a class="secondary-content" ><i class="material-icons">grade</i></a>
+                                </li>
+                                <li class="collection-item avatar">
+                                    <i class="material-icons circle red">play_arrow</i>
+                                    <span class="title">Title</span>
+                                    <p>First Line <br>
+                                        Second Line
+                                    </p>
+                                    <a class="secondary-content" ><i class="material-icons">grade</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="scrollspy section" id="structure">
+                    <h4>j基本的modal HTML结构</h4>
+                    <pre>
+              <code >
+    &lt;!-- Modal Trigger --&gt;
+    &lt;a class="waves-effect waves-light btn modal-trigger" href="#modal1"&gt;Modal&lt;/a&gt;
+
+    &lt;!-- Modal Structure --&gt;
+    &lt;div id="modal1" class="modal"&gt;
+    &lt;div class="modal-content"&gt;
+    &lt;h4&gt;Modal Header&lt;/h4&gt;
+    &lt;p&gt;A bunch of text&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="modal-footer"&gt;
+    &lt;a  class=" modal-action modal-close waves-effect waves-green btn-flat"&gt;Agree&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+              </code>
+          </pre>
+                </div>
+
+
+                <div class="scrollspy section" id="fixed-footer">
+                    <h4>固定脚结构的modal</h4>
+                    <p>If you have content that is very long and you want the action buttons to be visible all the time, you can add the <code class=" language-markup">modal-fixed-footer</code> class to the modal. </p>
+                    <pre class=" language-markup">
+                              <code class=" language-markup">
+    &lt;!-- Modal Trigger --&gt;
+    &lt;a class="modal-trigger waves-effect waves-light btn" href="#modal1"&gt;Modal&lt;/a&gt;
+
+    &lt;!-- Modal Structure --&gt;
+    &lt;div id="modal1" class="modal modal-fixed-footer"&gt;
+    &lt;div class="modal-content"&gt;
+    &lt;h4&gt;Modal Header&lt;/h4&gt;
+    &lt;p&gt;A bunch of text&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="modal-footer"&gt;
+    &lt;a  class="modal-action modal-close waves-effect waves-green btn-flat "&gt;Agree&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+                              </code>
+                          </pre>
+                </div>
+
+                <div class="scrollspy section" id="bottom-sheet">
+                    <h4>底部出现modal</h4>
+                    <p>Bottom Sheet Modals are good for displaying actions to the user on the bottom of a screen. They still act the same as regular modals.</p>
+                    <pre class=" language-markup">
+                        <code class=" language-markup">
+    &lt;!-- Modal Trigger --&gt;
+    &lt;a class="waves-effect waves-light btn modal-trigger" href="#modal1"&gt;Modal&lt;/a&gt;
+
+    &lt;!-- Modal Structure --&gt;
+    &lt;div id="modal1" class="modal bottom-sheet"&gt;
+    &lt;div class="modal-content"&gt;
+    &lt;h4&gt;Modal Header&lt;/h4&gt;
+    &lt;p&gt;A bunch of text&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class="modal-footer"&gt;
+    &lt;a  class=" modal-action modal-close waves-effect waves-green btn-flat"&gt;Agree&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="scrollspy section" id="button-trigger">
+                    <h4>Modals with Button trigger</h4>
+                    <p>If you prefer to use a button to open a modal specify the Modal ID in <code class=" language-markup">data-target</code> rather that the href attribute. </p>
+
+                    <pre class=" language-markup">
+                        <code class=" language-markup">
+        &lt;!-- Modal Trigger --&gt;
+        &lt;button data-target="modal1" class="btn modal-trigger"&gt;Modal&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+
+                <div class="scrollspy section" id="initialization">
+                    <h4>jQuery Plugin Initialization</h4>
+                    <p>To open a modal using a trigger:</p>
+                    <pre class=" language-javascript">
+                      <code class=" language-javascript">
+                          $(document).ready(function(){
+                          $('.modal-trigger').leanModal();
+                          });
+                      </code>
+                    </pre>
+                    <p>You can also open modals programatically, the below code will make your modal open on document ready:</p>
+                    <pre class=" language-javascript">
+                      <code>
+                          $('#modal1').openModal();
+                      </code>
+                    </pre>
+                    <p>You can also close them programatically:</p>
+                    <pre class=" language-javascript">
+                        <code class=" language-javascript">
+                            $('#modal1').closeModal();
+                        </code>
+                    </pre>
+                </div>
+
+
+                <div class="scrollspy section" id="options">
+                    <h4>Options</h4>
+                    <p>You can customize the behavior of each modal using these options. For example, you can call a custom function to run when a modal is dismissed. To do this, just place your function in the intialization code as shown below.</p>
+                    <pre class=" language-javascript">
+                        <code class=" language-javascript">
+    $('.modal-trigger').leanModal({
+        dismissible: true, // Modal can be dismissed by clicking outside of the modal      opacity: .5, // Opacity of modal background      in_duration: 300, // Transition in duration
+        out_duration: 200, // Transition out duration
+        ready: function() { alert('Ready'); }, // Callback for Modal open
+        complete: function() { alert('Closed'); } // Callback for Modal close
+    });
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Parallax 异步滚动视差</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <br>
+        <span class="purple-text f18">视差是一个效果的背景内容或图像在这种情况下,比前台内容以不同的速度移动而滚动。</span>
+        <br><br>
+        <a class="btn waves-effect waves-light" href="http://materializecss.com/parallax-demo.html" target="_blank">Open Demo</a>
+    </div>
+    <br/>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="imgs/parallax1.jpg">
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h2 class="header">Parallax</h2>
+            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+        <div class="container">
+            <pre>
+            <code>
+    &lt;div class="parallax-container"&gt;
+        &lt;div class="parallax"&gt;&lt;img src="images/parallax1.jpg"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="section white"&gt;
+        &lt;div class="row container"&gt;
+            &lt;h2 class="header"&gt;Parallax&lt;/h2&gt;
+            &lt;p class="grey-text text-darken-3 lighten-3"&gt;Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="parallax-container"&gt;
+        &lt;div class="parallax"&gt;&lt;img src="images/parallax2.jpg"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="imgs/parallax2.jpg"></div>
+    </div>
+    <div class="container">
+        <br>
+        <br>
+        <h4>1、Parallax HTML Structure 使用结构</h4>
+        <pre>
+            <code>
+    &lt;div <span class=" green-text">class="parallax-container"</span>&gt;
+        &lt;div <span class=" green-text">class="parallax"</span>&gt;&lt;img src="images/parallax1.jpg"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+            </code>
+        </pre>
+        <h4>2、Parallax高度</h4>
+        <span class="green-text f18">css 高度设定</span>
+        <pre>
+            <code>
+                .parallax-container {
+                    height:500px;//<span class="purple-text">默认的高度是500px</span> ;
+                }
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Pushpin 图钉</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m9 l10">
+                <div class="section scrollspy" id="introduction">
+                    <h4>Introduction</h4>
+                    <p class="caption">Pushpin is our fixed positioning plugin. 就是右边这个东西！ </p>
+                </div>
+                <div class="section scrollspy" id="initialization">
+                    <h4>jQuery Plugin Initialization</h4>
+        <pre class=" language-javascript"><code class=" col s12 language-javascript">
+            <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'.tabs-wrapper .row'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">pushpin</span><span class="token punctuation">(</span><span class="token punctuation">{</span> top<span class="token punctuation">:</span> <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'.tabs-wrapper'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">offset</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>top <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        </code></pre>
+                </div>
+                <div class="section scrollspy" id="options">
+                    <h4>jQuery Plugin Options</h4>
+                    <table class="hoverable">
+                        <thead>
+                        <tr>
+                            <th>Option Name</th>
+                            <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Top</td>
+                            <td>The distance in pixels from the top of the page where the element becomes fixed. (Default: 0)</td>
+                        </tr>
+                        <tr>
+                            <td>Bottom</td>
+                            <td>The distance in pixels from the top of the page where the elements stops being fixed. (Default: Infinity)</td>
+                        </tr>
+                        <tr>
+                            <td>Offset</td>
+                            <td>The offset from the top the element will be fixed at. (Default: 0)</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- Table of Contents -->
+            <div class="col hide-on-small-only m3 l2">
+                <div class="toc-wrapper pin-top" style="top: 0px;">
+                    <div class="buysellads hide-on-small-only">
+                        <!-- CarbonAds Zone Code -->
+                        <div id="carbonads">
+                            <span>
+                                <span class="carbon-wrap">
+                                    <a target="_blank" class="carbon-img" href="http://carbonads.com">
+                                        <img width="130" border="0" height="100" style="max-width:130px;" alt="" src="https://assets.servedby-buysellads.com/p/manage/asset/id/15119">
+                                    </a>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div style="height: 1px;">
+                        <ul class="section table-of-contents">
+                            <li><a href="#introduction" class="active">Introduction</a></li>
+                            <li><a href="#initialization" class="">Initialization</a></li>
+                            <li><a href="#options" class="">Options</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">ScrollFire插件</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="green-text f18">ScrollFire是一个jQuery插件执行的回调函数</div>
+        <br/>
+        <div class="section scrollspy" id="options">
+            <h4>jQuery Plugin Options</h4>
+            <table class="highlight">
+                <thead>
+                <tr>
+                    <th>Option Name</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>Selector</td>
+                    <td>The selector for the element that is being tracked.</td>
+                </tr>
+                <tr>
+                    <td>Offset</td>
+                    <td>If this is 0, the callback will be fired when the selector element is at the very bottom of the user's window.</td>
+                </tr>
+                <tr>
+                    <td>Callback</td>
+                    <td>This string is the function call that you want to make when the user scrolls to the threshold. It will only be called once.</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <pre>
+            <code >
+    var options = [
+    {selector: '#staggered-test', offset: 50, callback: 'Materialize.toast("This is our ScrollFire Demo!", 1500 )' },
+    {selector: '#staggered-test', offset: 205, callback: 'Materialize.toast("Please continue scrolling!", 1500 )' },
+    {selector: '#staggered-test', offset: 400, callback: 'Materialize.showStaggeredList("#staggered-test")' },
+    {selector: '#image-test', offset: 500, callback: 'Materialize.fadeInImage("#image-test")' }
+    ];
+    Materialize.scrollFire(options);
+            </code>
+      </pre>
+      <div class="row">
+            <ul id="staggered-test">
+                <li class="" style="transform: translateX(0px); opacity: 1;">
+                    <h4><a href="#">List Item</a></h4>
+                    <p>This is a description</p>
+                </li>
+                <li class="" style="transform: translateX(0px); opacity: 1;">
+                    <h4><a href="#">List Item</a></h4>
+                    <p>This is a description</p>
+                </li>
+                <li class="" style="transform: translateX(0px); opacity: 1;">
+                    <h4><a href="#">List Item</a></h4>
+                    <p>This is a description</p>
+                </li>
+                <li class="" style="transform: translateX(0px); opacity: 1;">
+                    <h4><a href="#">List Item</a></h4>
+                    <p>This is a description</p>
+                </li>
+                <li class="" style="transform: translateX(0px); opacity: 1;">
+                    <h4><a href="#">List Item</a></h4>
+                    <p>This is a description</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Scrollspy 锚插件</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m9 l10">
+                <div id="introduction1" class="section scrollspy">
+                    <p>点击右侧定位到 <span class="green-text">  id="introduction"</span> 的地方</p>
+                </div>
+
+                <div id="structure1" class="section scrollspy">
+                    <p>点击右侧定位到 <span class="green-text"> id="structure"</span> 的地方 </p>
+                </div>
+
+                <div id="initialization1" class="section scrollspy">
+                    <p>点击右侧定位到 <span class="green-text"> id="initialization"</span> 的地方 </p>
+                </div>
+            </div>
+            <div class="col hide-on-small-only m3 l2">
+                <ul class="section table-of-contents">
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#structure">Structure</a></li>
+                    <li><a href="#initialization">Intialization</a></li>
+                </ul>
+            </div>
+        </div>
+        <pre>
+            <code>
+    <span class="red-text">要定位的部分</span>
+    &lt;div class="row"&gt;
+        &lt;div class="col s12 m9 l10"&gt;
+            &lt;div id="introduction1" class="section scrollspy"&gt;
+                &lt;p&gt;点击右侧定位到 &lt;span class="green-text"&gt;  id="introduction"&lt;/span&gt; 的地方&lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div id="structure1" class="section scrollspy"&gt;
+                &lt;p&gt;点击右侧定位到 &lt;span class="green-text"&gt; id="structure"&lt;/span&gt; 的地方 &lt;/p&gt;
+            &lt;/div&gt;
+
+            &lt;div id="initialization1" class="section scrollspy"&gt;
+                &lt;p&gt;点击右侧定位到 &lt;span class="green-text"&gt; id="initialization"&lt;/span&gt; 的地方 &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="col hide-on-small-only m3 l2"&gt;
+
+    <span class="red-text">定位功能实现</span>
+            &lt;ul class="section table-of-contents"&gt;
+                &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#structure"&gt;Structure&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#initialization"&gt;Intialization&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    <span class="red-text">JQuery初始化</span>
+    $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+    });
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Tabs 导航栏</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col s12">
+                <ul class="tabs z-depth-1">
+                    <li class="tab col s3"><a   href="#test11">Test 1</a></li>
+                    <li class="tab col s3"><a href="#test22">Test 2</a></li>
+                    <li class="tab col s3 disabled"><a  class="disabled" href="#test33">Test 3</a></li>
+                    <li class="tab col s3 active"><a  class="active" href="#test44"> Active Test 4</a></li>
+                </ul>
+            </div>
+            <br/><br/><br/>
+            <div id="test11" class="col s12" style="display: none;"><img class="responsive-img" src="imgs/tab/tab1.jpg"/></div>
+            <div id="test22" class="col s12" style="display: none;"><img class="responsive-img" src="imgs/tab/tab2.jpg"/></div>
+            <div id="test33" class="col s12" style="display: none;"><img class="responsive-imge" src="imgs/tab/tab3.jpg"/></div>
+            <div id="test44" class="col s12" ><img  class="responsive-img" src="imgs/tab/tab4.jpg"/></div>
+        </div>
+        <pre>
+            <code>
+    &lt;div class="row"&gt;
+        &lt;div class="col s12"&gt;
+            &lt;ul class="tabs"&gt;
+                &lt;li class="tab col s3"&gt;&lt;a href="#test11"&gt;Test 1&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="tab col s3"&gt;&lt;a href="#test22"&gt;Test 2&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="tab col s3"&gt;&lt;a href="#test33"&gt;Test 3&lt;/a&gt;&lt;/li&gt;
+                &lt;li class="tab col s3 active"&gt;&lt;a  <span class="purple-text">class="active"</span> href="#test44"&gt; Active Test 4&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+        &lt;div id="test11" class="col s12" <span class="purple-text">style="display: none;"</span>&gt;&lt;img class="responsive-img" src="imgs/tab/tab1.jpg"/&gt;&lt;/div&gt;
+        &lt;div id="test22" class="col s12" <span class="purple-text">style="display: none;"</span>&gt;&lt;img class="responsive-img" src="imgs/tab/tab2.jpg"/&gt;&lt;/div&gt;
+        &lt;div id="test33" class="col s12" <span class="purple-text">style="display: none;"</span>&gt;&lt;img class="responsive-imge" src="imgs/tab/tab3.jpg"/&gt;&lt;/div&gt;
+        &lt;div id="test44" class="col s12" &gt;&lt;img  class="responsive-img" src="imgs/tab/tab4.jpg"/&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    Jquery 初始化
+    <span class="green-text">
+    $(document).ready(function(){<br>
+    $('ul.tabs').tabs('select_tab', 'tab_id');<br>
+    });
+    </span>
+            </code>
+        </pre>
+    </div>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="nav-wrapper"><a class="page-title">Waves 波纹、涟漪效果</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <span class="green-text f18">class="waves-light" 按钮点击是会有波纹效果出现</span><br>
+
+        <a class="waves-effect waves-light btn-large"  >点我啊</a>
+        <div class="row">
+            <div class="col s12 l12">
+                <h5 class="light">可用的波纹颜色</h5>
+                <p>直接添加可用颜色进去，例如waes-yellow就会有黄色的波纹效果 </p>
+          <pre>
+              <code>
+    &lt; class="btn waves-effect waves-teal"&gt;Send&lt;/a&gt;
+            </code>
+          </pre>
+                <div class="collection waves-color-demo valign-wrapper">
+                    <div class="collection-item valign center-align"><code class=" language-markup">默认样式</code><a class="waves-effect btn secondary-content" >Send</a></div>
+                    <div class="collection-item valign center-align"><code class=" language-markup">waves-light</code><a class="waves-effect waves-light btn secondary-content white black-text" >Send</a></div>
+                    <div class="collection-item valign center-align"><code class=" language-markup">waves-red</code><a class="waves-effect waves-red btn secondary-content white black-text" >Send</a></div>
+                    <div class="collection-item valign center-align"><code class=" language-markup">waves-yellow</code><a class="waves-effect waves-yellow btn secondary-content white black-text" >Send</a></div>
+                    <div class="collection-item valign center-align"><code class=" language-markup">waves-orange</code><a class="waves-effect waves-orange btn secondary-content white black-text" >Send</a></div>
+                    <div class="collection-item valign center-align"><code class=" language-markup">waves-purple</code><a class="waves-effect waves-purple btn secondary-content white black-text" >Send</a></div>
+                    <div class="collection-item valign center-align"><code class=" language-markup">waves-green</code><a class="waves-effect waves-green btn secondary-content white black-text" >Send</a></div>
+                    <div class="collection-item valign center-align"><code class=" language-markup">waves-teal</code><a class="waves-effect waves-teal btn secondary-content white black-text" >Send</a></div>
+                </div>
+            </div>
+
+            <div class="col s12 l12">
+                <h5 class="light">Custom Colors</h5>
+                <p>If the color you want is not already available, you can easily make your own waves color by creating a custom CSS class. Take a look at the example below where we add a waves-brown effect</p>
+          <pre >
+              <code >
+    /*
+    When creating your CSS selector, change "brown" to something of your choosing
+    */
+    .waves-effect.waves-brown .waves-ripple{
+    background-color rgba(121, 85, 72, 0.65) ;
+    }
+            </code>
+          </pre>
+            </div>
+        </div>
+
+    </div>
+
+<!--页脚部分-->
+
+    <footer class="page-footer waves-red lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">
+                        响应式前端框架设计总结，本网页，仅供个人总结使用，如有问题请联系作者。</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">友情链接</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="http://www.zjgsu.edu.cn/" target="_blank">浙江工商大学</a></li>
+                        <li><a class="grey-text text-lighten-3" href="http://www.zjgsu.edu.cn/Channel_46/Show_53.html" target="_blank">商大网站导航</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container white-text">
+                © 2015 Copyright ZJGSU 孙文 浙江工商大学信电学院 浙ICP备15046916号
+                <a class="grey-text text-lighten-4 right" href="http://weibo.com/230571567" target="_blank"> 刀刀小丑</a>
+            </div>
+        </div>
+    </footer>
+    <a name="end"></a>
+</body>
+</html>

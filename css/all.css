@@ -1,0 +1,105 @@
+/*!
+ * ËïÎÄ 2015.09.08
+ */
+header a{
+    font-family: "Lucide Grande",Verdana,Arial,Helvetica,sans-serif,"Roboto", sans-serif;
+    font-size: 48px;
+}
+.f12{
+    font-family: "Lucide Grande",Verdana,Arial,Helvetica,sans-serif,"Roboto", sans-serif;
+    font-size: 12px;
+}
+.f14{
+    font-family: "Lucide Grande",Verdana,Arial,Helvetica,sans-serif,"Roboto", sans-serif;
+    font-size: 14px;
+}
+.f18{
+    font-family: "Lucide Grande",Verdana,Arial,Helvetica,sans-serif,"Roboto", sans-serif;
+    font-size: 18px;
+}
+.f24{
+    font-family: "Lucide Grande",Verdana,Arial,Helvetica,sans-serif,"Roboto", sans-serif;
+    font-size: 24px;
+}
+.f28{
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+}
+.f36{
+    font-family: "Lucide Grande",Verdana,Arial,Helvetica,sans-serif,"Roboto", sans-serif;
+    font-size: 36px;
+}
+.f48{
+    font-family: "Lucide Grande",Verdana,Arial,Helvetica,sans-serif,"Roboto", sans-serif;
+    font-size: 48px;
+}
+p{
+    text-indent:2em
+}
+pre{
+    background-color: #f5f2f0;
+    border: 1px solid lightsteelblue;
+}
+.shadow-demo{
+    width: 80px;
+    height: 80px;
+    background-color: #28a79b;
+    vert-align:middle;
+    margin-left: -20px;
+
+}
+.caption{
+    font-family: "Lucide Grande",Verdana,Arial,Helvetica,sans-serif,"Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: rgba(0,0,0,0.71);
+    line-height: 28px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+/* label color */
+.input-field label {
+    color: #000;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}
+.icon-demo{
+    vertical-align: bottom;
+}
+.parallax-container {
+    height: 600px;
+}
+.waves-effect.waves-brown .waves-ripple{
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+    background-color:rgba(121, 85, 72, 0.65) ;
+}
+
